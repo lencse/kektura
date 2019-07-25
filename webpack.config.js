@@ -1,7 +1,6 @@
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const LiveReloadPlugin = require('webpack-livereload-plugin')
 const commandLineArgs = require('command-line-args')
 const webpackMerge = require('webpack-merge')
 const TerserPlugin = require('terser-webpack-plugin')
@@ -29,7 +28,7 @@ const extra = devMode ?
         mode: 'development',
         devtool: 'inline-source-map',
         plugins: [
-            new LiveReloadPlugin()
+            // new LiveReloadPlugin()
         ],
         devServer: {
             port: 6100,

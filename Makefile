@@ -1,5 +1,5 @@
 .PHONY: test dev watch test lint test_ts test test_compiled
-.PHONY: lint_fix watch_test verify compile clean
+.PHONY: lint_fix watch_test verify compile clean watch_ts
 
 BIN=node_modules/.bin
 
@@ -16,13 +16,12 @@ build/compile: src config node_modules
 	make compile && touch build/compile
 
 build/svg:
-	mkdir build/svg && cp _svg/test.svg build/svg
+	mkdir build/svg && node bin/write-svg.js
 
 watch: node_modules
-	make clean && make build/compile && ./compile-views --dev && \
-	make build/svg && ( \
+	make clean && make build/compile && ./compile-views --dev && make build/svg && ( \
+		$(BIN)/nodemon bin/write-svg.js & \
 		$(BIN)/tsc -p . --outDir ./build/compile --watch --pretty & \
-		$(BIN)/webpack --watch & \
 		./compile-views --watch & \
 		$(BIN)/webpack-dev-server \
 	)
@@ -33,6 +32,9 @@ test_ts: node_modules src
 test: test_ts test_compiled
 
 verify: lint test
+
+watch_ts:
+	$(BIN)/tsc -p . --outDir ./build/compile --watch --pretty
 
 test_compiled: build/compile node_modules
 	$(BIN)/jest --config jest.config.build.js
