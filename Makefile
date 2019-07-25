@@ -3,7 +3,7 @@
 
 BIN=node_modules/.bin
 
-public: build/compile src build/views
+public: build/compile src build/views build/svg
 	$(BIN)/webpack
 
 clean:
@@ -15,12 +15,16 @@ node_modules: package.json yarn.lock
 build/compile: src config node_modules
 	make compile && touch build/compile
 
+build/svg:
+	mkdir build/svg && cp _svg/test.svg build/svg
+
 watch: node_modules
-	make clean && make build/compile && ./compile-views --dev && ( \
+	make clean && make build/compile && ./compile-views --dev && \
+	make build/svg && ( \
 		$(BIN)/tsc -p . --outDir ./build/compile --watch --pretty & \
 		$(BIN)/webpack --watch & \
 		./compile-views --watch & \
-		$(BIN)/webpack-dev-server --open \
+		$(BIN)/webpack-dev-server \
 	)
 
 test_ts: node_modules src

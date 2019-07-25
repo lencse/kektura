@@ -8,13 +8,16 @@ const TerserPlugin = require('terser-webpack-plugin')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const OptimizeCssPlugin = require('optimize-css-assets-webpack-plugin')
 const cssnano = require('cssnano')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const args = commandLineArgs([
-    { name: 'watch', type: Boolean },
-    { name: 'open', type: Boolean },
+    { name: 'watch', type: Boolean }
 ])
 
-const devMode = true === args.watch || true === args.open
+const devMode = true === args.watch ||
+    process.argv.filter(
+        (arg) => arg.match(/webpack-dev-server$/)
+    ).length > 0
 
 const dirs = {
     dist: 'public',
@@ -29,7 +32,8 @@ const extra = devMode ?
             new LiveReloadPlugin()
         ],
         devServer: {
-            port: 6100
+            port: 6100,
+            writeToDisk: true
         }
     } : {
         mode: 'production',
@@ -77,7 +81,10 @@ module.exports = webpackMerge(
             new MiniCssExtractPlugin({
                 filename: filenames.css,
                 chunkFilename: filenames.cssChunks
-            })
+            }),
+            new CopyPlugin([
+                { from: 'build/svg', to: 'svg' }
+            ])
         ],
         module: {
             rules: [
