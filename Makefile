@@ -1,5 +1,5 @@
 .PHONY: test dev watch test lint test_ts test test_compiled
-.PHONY: lint_fix watch_test verify compile clean watch_ts
+.PHONY: lint_fix watch_test verify compile clean watch_ts watch_svg
 
 BIN=node_modules/.bin
 
@@ -25,6 +25,9 @@ watch: node_modules
 		./compile-views --watch & \
 		$(BIN)/webpack-dev-server \
 	)
+
+watch_svg:
+	make watch_ts & $(BIN)/nodemon bin/write-svg.js
 
 test_ts: node_modules src
 	$(BIN)/jest --verbose ; mv test-report.xml logs/jest
