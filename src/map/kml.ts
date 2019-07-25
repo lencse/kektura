@@ -13,10 +13,7 @@ async function xml2json(xml: string) {
     })
 }
 
-export async function rawFromKml(
-    kmlFilePath: string,
-    areaQualifier: string
-): Promise<string> {
+export async function rawFromKml(kmlFilePath: string, areaQualifier: string): Promise<string> {
     const kml = readFileSync(kmlFilePath).toString()
     const data: any = await xml2json(kml.toString())
     return data.kml
