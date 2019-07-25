@@ -5,6 +5,6 @@ export function rawToCoordinates(rawData: string): Coordinate[] {
         .map((coordStr: string) =>
             coordStr.split(',')
         ).map((coord) => {
-            return { lat: Number(coord[0]), lon: Number(coord[1]) }
+            return { lon: Number(coord[0]), lat: Number(coord[1]) }
         })
 }
