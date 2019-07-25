@@ -1,0 +1,55 @@
+#!/usr/bin/env node
+
+const Handlebars = require('handlebars')
+const fs = require('fs')
+const path = require('path')
+const commandLineArgs = require('command-line-args')
+const mkdirp = require('mkdirp')
+
+const compiler = {
+
+    dev: false,
+    watch: false,
+
+    config: {
+        sourceFile: 'views/index.hbs',
+        targetDir: 'build/views',
+        targetFile: 'index.ejs'
+    },
+
+    init() {
+        const args = commandLineArgs([
+            { name: 'watch', type: Boolean },
+            { name: 'dev', type: Boolean }
+        ])
+        this.watch = true === args.watch
+        this.dev = true === args.dev || args.watch
+    },
+
+    getHtml() {
+        const template = fs.readFileSync(this.config.sourceFile).toString()
+        return Handlebars.compile(template)({watch: this.dev})
+    },
+
+    writeView() {
+        mkdirp(this.config.targetDir)
+        fs.writeFileSync(path.resolve(this.config.targetDir, this.config.targetFile), this.getHtml())
+    },
+
+    watchFiles() {
+        fs.watch(this.config.sourceFile, (event, fileName) => {
+            console.info(`${fileName} updated`)
+            this.writeView()
+        })
+    },
+
+    compile() {
+        this.watch ?
+            this.watchFiles() :
+            this.writeView()
+    }
+
+}
+
+compiler.init()
+compiler.compile()

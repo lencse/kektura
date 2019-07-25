@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2018",
+        "jsx": "react",
+        "removeComments": true,
+        "moduleResolution": "node",
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true
+    },
+    "exclude": [
+        "build",
+        "node_modules"
+    ]
+}
