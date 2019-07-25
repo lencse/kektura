@@ -1,1 +1,1 @@
-console.info('Kektura!')
+console.info('Kektura')
