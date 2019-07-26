@@ -1,4 +1,4 @@
-import { writeHungaryData, writeBudapestData } from "../data/export";
+import { writeHungaryData, writeBudapestData } from '../data/export'
 
 writeHungaryData()
 writeBudapestData()
