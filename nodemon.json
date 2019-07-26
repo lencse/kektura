@@ -6,7 +6,7 @@
         ".DS_Store",
         ".git",
         "logs",
-        "build/svg/**",
+        "build/data/**",
         "build/views/**",
         "config"
     ]

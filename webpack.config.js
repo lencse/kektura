@@ -20,7 +20,7 @@ const devMode = true === args.watch ||
 
 const dirs = {
     dist: 'public',
-    views: 'build/views'
+    views: 'views'
 }
 
 const extra = devMode ?
@@ -82,7 +82,7 @@ module.exports = webpackMerge(
                 chunkFilename: filenames.cssChunks
             }),
             new CopyPlugin([
-                { from: 'build/svg', to: 'svg' }
+                { from: 'build/data', to: 'data' }
             ])
         ],
         module: {
