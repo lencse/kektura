@@ -28,4 +28,5 @@ export async function rawFromKml(kmlFilePath: string, areaQualifier: string): Pr
         .outerBoundaryIs[0]
         .LinearRing[0]
         .coordinates[0]
+        .trim()
 }

@@ -9,7 +9,7 @@ describe('Extract Kml file', () => {
             resolve(process.cwd(), 'map/kml/gadm36_HUN_0.kml'),
             'Hungary'
         )
-        expect(raw.length).toBeGreaterThan(1000)
+        expect(raw).toMatch(/^\d(\d|[. ,])+\d$/)
     })
 
     it('Extract Budapest border', async () => {
@@ -17,7 +17,7 @@ describe('Extract Kml file', () => {
             resolve(process.cwd(), 'map/kml/gadm36_HUN_1.kml'),
             'Hungary/Budapest'
         )
-        expect(raw.length).toBeGreaterThan(1000)
+        expect(raw).toMatch(/^\d(\d|[. ,])+\d$/)
     })
 
 })
