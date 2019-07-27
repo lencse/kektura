@@ -8,12 +8,20 @@ fetch('/data/data.json').then((resp) => resp.json().then((data: Data) => {
     const h = 600
     const transform = transformer(w, h, data)
     const draw = SVG('map').size(w, h)
-    function polygon(points: Point[], className: string): void {
+    function polygon(points: Point[], className: string): SVG.Polygon {
         const asString = transform(points)
             .map((p) => [p.x, p.y])
             .map((coo) => coo.join(',')).join(' ')
-        draw.polygon(asString).addClass(className)
+        return draw.polygon(asString).addClass(className)
     }
     polygon(data.hungary, 'hungary')
-    polygon(data.budapest, 'budapest')
+        .attr({ opacity: 0 })
+        .animate(1000)
+        .attr({ opacity: 1 })
+        .after(() => {
+            polygon(data.budapest, 'budapest')
+                .attr({ opacity: 0 })
+                .animate(500)
+                .attr({ opacity: 1 })
+        })
 }))
