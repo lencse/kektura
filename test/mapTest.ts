@@ -61,6 +61,7 @@ describe('Map', () => {
         const filtered = filterByDistance(coordinates, 130)
         expect(filtered).toEqual([
             { lon: 20.47387314, lat: 46.15235138 },
+            { lon: 20.47172356, lat: 46.15082932 },
             { lon: 20.47033882, lat: 46.14984894 },
             { lon: 20.46892357, lat: 46.14889145 },
             { lon: 20.46618271, lat: 46.14697647 },

@@ -12,7 +12,7 @@ async function data(): Promise<Data> {
     }
 }
 
-const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', 200)
+const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', 250)
 const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', 200)
 
 function kmlData(

@@ -2,6 +2,7 @@ import * as SVG from 'svg.js'
 import Data from './data/Data'
 
 fetch('/data/data.json').then((resp) => resp.json().then((data: Data) => {
+    console.info(data)
     const coords = data.hungary
     const xValues = coords.map((p) => p.x)
     const yValues = coords.map((p) => p.y)
