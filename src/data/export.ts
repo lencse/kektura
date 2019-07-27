@@ -1,8 +1,7 @@
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
 import { rawFromKml } from '../map/kml'
-import { rawToCoordinates } from '../map/map'
-import distanceInMeters from '../map/distance'
+import { rawToCoordinates, distanceInMeters } from '../map/map'
 
 export async function writeHungaryData(): Promise<void> {
     const raw = await rawFromKml(
