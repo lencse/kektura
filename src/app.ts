@@ -7,7 +7,7 @@ fetch('/data/data.json').then((resp) => resp.json().then((data: Data) => {
     const w = 900
     const h = 600
     const transform = transformer(w, h, data)
-    const draw = SVG('map').size(w, h)
+    const draw = SVG('map').viewbox(0, 0, w, h)
     function polygon(points: Point[], className: string): SVG.Polygon {
         const asString = transform(points)
             .map((p) => [p.x, p.y])
@@ -18,10 +18,8 @@ fetch('/data/data.json').then((resp) => resp.json().then((data: Data) => {
         .attr({ opacity: 0 })
         .animate(1000)
         .attr({ opacity: 1 })
-        .after(() => {
-            polygon(data.budapest, 'budapest')
-                .attr({ opacity: 0 })
-                .animate(500)
-                .attr({ opacity: 1 })
-        })
+    polygon(data.budapest, 'budapest')
+        .attr({ opacity: 0 })
+        .animate(1000)
+        .attr({ opacity: 1 })
 }))
