@@ -1,6 +1,6 @@
 import { rawFromKml } from '../src/map/kml'
 import { resolve } from 'path'
-import { rawToCoordinates, distanceInMeters, filterByDistance } from '../src/map/map'
+import { rawToCoordinates, distanceInMeters, filterByDistance, project } from '../src/map/map'
 
 describe('Extract Kml file', () => {
 
@@ -41,7 +41,12 @@ describe('Map', () => {
         expect(distance).toEqual(547)
     })
 
-    it('FIlter coordinates by distance', () => {
+    it('Transform to Pseudo-Mercator', () => {
+        const point = project({ lat: 16.45419312, lon: 47.1848259 })
+        expect(point).toEqual({ x: 1831672.3995325852, y: 5972294.716871628 })
+    })
+
+    it('Filter coordinates by distance', () => {
         const coordinates = [
             { lon: 20.47387314, lat: 46.15235138 },
             { lon: 20.47296524, lat: 46.15174866 },

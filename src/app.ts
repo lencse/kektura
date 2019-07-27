@@ -11,7 +11,6 @@ fetch('/data/data.json').then((resp) => resp.json().then((data: Data) => {
     ]
     )
     const s = c.map((coo) => coo.join(',')).join(' ')
-    // draw.polygon('0,0 100,100, 150,200').fill('red').stroke({ width: 1 })
     draw.polygon(s).fill('red').stroke({ width: 1 }) // .move(-200, -400)
     console.table(c)
     console.dir(s)
