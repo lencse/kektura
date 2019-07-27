@@ -43,7 +43,7 @@ describe('Map', () => {
 
     it('Transform to Pseudo-Mercator', () => {
         const point = project({ lat: 16.45419312, lon: 47.1848259 })
-        expect(point).toEqual({ x: 1831672.3995325852, y: 5972294.716871628 })
+        expect(point).toEqual({ x: 5252590.792357266, y: 1857381.2976151858 })
     })
 
     it('Filter coordinates by distance', () => {

@@ -1,6 +1,6 @@
-import Coordinate from '../map/Coordinate'
+import Point from '../map/Point'
 
 export default interface Data {
-    hungary: Coordinate[],
-    budapest: Coordinate[]
+    hungary: Point[],
+    budapest: Point[]
 }
