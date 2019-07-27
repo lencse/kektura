@@ -9,6 +9,7 @@
     "node": "^10.15.0"
   },
   "dependencies": {
+    "geolib": "^3.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "svg.js": "^2.7.1",
