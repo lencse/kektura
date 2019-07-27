@@ -1,33 +1,37 @@
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
 import { rawFromKml } from '../map/kml'
-import { rawToCoordinates, distanceInMeters } from '../map/map'
+import { rawToCoordinates, filterByDistance } from '../map/map'
+import Coordinate from '../map/Coordinate'
+import Data from './Data'
 
-export async function writeHungaryData(): Promise<void> {
-    const raw = await rawFromKml(
-        resolve(process.cwd(), 'map/kml/gadm36_HUN_0.kml'),
-        'Hungary'
-    )
-    const coordinates = rawToCoordinates(raw)
-    const c = [coordinates[0]]
-    for (let i = 1; i < coordinates.length - 1; i += 1) {
-        if (distanceInMeters(coordinates[i], coordinates[i-1]) >= 200) {
-            c.push(coordinates[i])
-        }
+async function data(): Promise<Data> {
+    return {
+        hungary: await hungary(),
+        budapest: await budapest(),
     }
-    c.push(coordinates[coordinates.length - 1])
-    console.table(c)
-    console.table([
-        c[0], c[c.length -1]
-    ])
-    writeFileSync(resolve(process.cwd(), 'build/data/hungary.json'), JSON.stringify(c))
 }
 
-export async function writeBudapestData(): Promise<void> {
-    const raw = await rawFromKml(
-        resolve(process.cwd(), 'map/kml/gadm36_HUN_1.kml'),
-        'Hungary/Budapest'
+const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', 200)
+const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', 200)
+
+function kmlData(
+    kmlFileName: string,
+    areaQualifier: string,
+    distanceThreshold: number
+): () => Promise<Coordinate[]> {
+    return async () => filterByDistance(
+        rawToCoordinates(
+            await rawFromKml(kmlPath(kmlFileName), areaQualifier)
+        ),
+        distanceThreshold
     )
-    const coordinates = rawToCoordinates(raw)
-    writeFileSync(resolve(process.cwd(), 'build/data/budapest.json'), JSON.stringify(coordinates))
+}
+
+function kmlPath(kmlFileName: string): string {
+    return resolve(process.cwd(), 'map/kml', kmlFileName)
+}
+
+export async function writeData(filePath: string): Promise<void> {
+    writeFileSync(filePath, JSON.stringify(await data()))
 }

@@ -1,4 +1,4 @@
-import { writeHungaryData, writeBudapestData } from '../data/export'
+import { writeData } from '../data/export'
+import { resolve } from 'path'
 
-writeHungaryData()
-writeBudapestData()
+writeData(resolve(process.cwd(), 'build/data/data.json'))

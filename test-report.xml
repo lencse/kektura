@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testExecutions version="1">
-  <file path="/Users/lencse/dev/kektura/test/map/mapTest.ts">
-    <testCase name="Extract Kml file Extract Hungary border" duration="34"/>
-    <testCase name="Extract Kml file Extract Budapest border" duration="86"/>
-    <testCase name="Map Get coordinates from raw data" duration="2"/>
-    <testCase name="Map Calculate distance" duration="2"/>
-  </file>
-</testExecutions>
