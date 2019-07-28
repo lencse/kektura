@@ -20,16 +20,14 @@ export function distanceInMeters(coord1: Coordinate, coord2: Coordinate): number
 }
 
 export function filterByDistance(coordinates: Coordinate[], thresholdMeters: number): Coordinate[] {
-    const result = [coordinates[0]]
-    let last = coordinates[0]
-    for (let i = 1; i < coordinates.length - 1; ++i) {
-        if (distanceInMeters(coordinates[i], last) >= thresholdMeters) {
-            result.push(coordinates[i])
-            last = coordinates[i]
-        }
-    }
-    result.push(coordinates[coordinates.length - 1])
-    return result
+    return coordinates.reduce(
+        (prev, curr, idx) => (
+            idx === coordinates.length -1
+                ||  distanceInMeters(curr, prev[prev.length - 1]) >= thresholdMeters
+             ? prev.concat([curr]) : prev
+        ),
+        [coordinates[0]]
+    )
 }
 
 export function project(coordinate: Coordinate): Point {

@@ -14,8 +14,8 @@ async function data(): Promise<Data> {
 }
 
 const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', 250)
-const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', 200)
-const kektura = gpxData('okt_teljes_gpx_2019-06-28.gpx', 250)
+const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', 250)
+const kektura = gpxData('okt_teljes_gpx_2019-06-28.gpx', 200)
 
 function kmlData(
     kmlFileName: string,

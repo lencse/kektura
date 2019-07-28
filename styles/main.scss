@@ -26,6 +26,7 @@ body {
             stroke: $alt;
             stroke-linejoin: bevel;
             stroke-width: 2px;
+            stroke-linecap: round;
             fill: none;
         }
     }
