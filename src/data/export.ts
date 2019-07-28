@@ -4,6 +4,7 @@ import { rawFromKml, coordinatesFromGpx } from '../map/files'
 import { rawToCoordinates, filterByDistance, project } from '../map/map'
 import Data from './Data'
 import Point from '../map/Point'
+import config from '../../config/config';
 
 async function data(): Promise<Data> {
     return {
@@ -13,9 +14,11 @@ async function data(): Promise<Data> {
     }
 }
 
-const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', 250)
-const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', 250)
-const kektura = gpxData('okt_teljes_gpx_2019-06-28.gpx', 200)
+const thresholds = config.resolutionThresholdMeters
+
+const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', thresholds.hungary)
+const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', thresholds.budapest)
+const kektura = gpxData('okt_teljes_gpx_2019-06-28.gpx', thresholds.kektura)
 
 function kmlData(
     kmlFileName: string,

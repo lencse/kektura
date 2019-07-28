@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="turistautak.openstreetmap.hu" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<metadata>
+		<name>Országos Kéktúra bélyegzőhelyek</name>
+		<desc>OSM adatok alapján</desc>
+	</metadata>
+
+<wpt lat="47.3528069753095" lon="16.4337942705586">
+        <ele>880</ele>
+<name><![CDATA[Írott-kő OKTPH_01_1_DDKPH_01_1]]></name>
+<desc><![CDATA[A kilátó bejárata melletti információs tábla oszlopán. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=1]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4899085777</url>
+
+</wpt>
+<wpt lat="47.3529532807376" lon="16.4343269715221">
+        <ele>876</ele>
+<name><![CDATA[Írott-kő OKTPH_01_2_DDKPH_01_2]]></name>
+<desc><![CDATA[A kilátó alatti esőbeálló bejárati faoszlopán. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=1]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4625471038</url>
+
+</wpt>
+<wpt lat="47.3873081177642" lon="16.5005764660845">
+        <ele>441</ele>
+<name><![CDATA[Hét-forrás OKTPH_02]]></name>
+<desc><![CDATA[Esőbeálló bejárati oszlopán | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=2]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176772</url>
+
+</wpt>
+<wpt lat="47.3880803974704" lon="16.5422740157851">
+        <ele>274</ele>
+<name><![CDATA[Kőszeg OKTPH_03_1]]></name>
+<desc><![CDATA[A Tourinform-iroda bejáratánál -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176775</url>
+
+</wpt>
+<wpt lat="47.3902799763577" lon="16.5381249669824">
+        <ele>279</ele>
+<name><![CDATA[Kőszeg OKTPH_03_2]]></name>
+<desc><![CDATA[A Kék Huszár vendéglőben, a faléces térelválasztón -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176776</url>
+
+</wpt>
+<wpt lat="47.3638829869759" lon="16.6755659478112">
+        <ele>221</ele>
+<name><![CDATA[Tömörd OKTPH_04]]></name>
+<desc><![CDATA[Templom melletti esőbeálló fagerendáján | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=4]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632177789</url>
+
+</wpt>
+<wpt lat="47.3487999720628" lon="16.7444999677687">
+        <ele>183</ele>
+<name><![CDATA[Ablánci malom OKTPH_05]]></name>
+<desc><![CDATA[Az ablánci Malomcsárda kerítésének faoszlopán. Zárva, romos | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=5]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176763</url>
+
+</wpt>
+<wpt lat="47.312055176047" lon="16.8312288948524">
+        <ele>172</ele>
+<name><![CDATA[Szeleste OKTPH_06]]></name>
+<desc><![CDATA[Máté vendéglőben, a pult melletti falon.H–P: 8–22 óráig, Szo–V: 8–23 óráig | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=6]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176782</url>
+
+</wpt>
+<wpt lat="47.252165012266" lon="16.8289199550776">
+        <ele>169</ele>
+<name><![CDATA[Bögöt OKTPH_07_1]]></name>
+<desc><![CDATA[A polgármesteri hivatal külső falának villanyóraszekrényében -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176765</url>
+
+</wpt>
+<wpt lat="47.2529000024171" lon="16.8294999972566">
+        <ele>169</ele>
+<name><![CDATA[Bögöt OKTPH_07_2]]></name>
+<desc><![CDATA[A Coop üzletben, a bejárati zárt tér falán | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=6]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176766</url>
+
+</wpt>
+<wpt lat="47.2381999690219" lon="16.8967999817122">
+        <ele>160</ele>
+<name><![CDATA[Csényeújmajor OKTPH_08]]></name>
+<desc><![CDATA[Kápolna előtti fakerítés végén. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=8]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176768</url>
+
+</wpt>
+<wpt lat="47.253207007478" lon="16.9377501330965">
+        <ele>157</ele>
+<name><![CDATA[Sárvár OKTPH_09]]></name>
+<desc><![CDATA[Nyilvános illemhely épületében, a bejárati rács melletti téglafalon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176787</url>
+
+</wpt>
+<wpt lat="47.2181349762079" lon="17.0150909468088">
+        <ele>176</ele>
+<name><![CDATA[Gérce OKTPH_10_1]]></name>
+<desc><![CDATA[Polgármesteri Hivatal előtti beton villanyoszlopon. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176770</url>
+
+</wpt>
+<wpt lat="47.2157515176951" lon="17.0157072809253">
+        <ele>175</ele>
+<name><![CDATA[Gérce OKTPH_10_2]]></name>
+<desc><![CDATA[Kismackó élelmiszerüzlet és italbolt teraszos kerthelyiségének OSB-falán | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=10]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176769</url>
+
+</wpt>
+<wpt lat="47.2020681871001" lon="17.0005847719378">
+        <ele>191</ele>
+<name><![CDATA[Rózsáskerti erdészház OKTPH_11]]></name>
+<desc><![CDATA[Erdészház kerítésének faoszlopán. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=11]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176781</url>
+
+</wpt>
+<wpt lat="47.1620000010512" lon="16.9827000332832">
+        <ele>174</ele>
+<name><![CDATA[Hidegkúti erdészház OKTPH_12]]></name>
+<desc><![CDATA[Erdészház kerítésén, a bejárati kapu közelében. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=12]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176771</url>
+
+</wpt>
+<wpt lat="47.1617594105148" lon="17.0451037502828">
+        <ele>167</ele>
+<name><![CDATA[Káld OKTPH_13_1]]></name>
+<desc><![CDATA[A Korona büfében, a pulttal szembeni fal polcának oldalán | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=13]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3042107138</url>
+
+</wpt>
+<wpt lat="47.1602710721059" lon="17.0452508044948">
+        <ele>168</ele>
+<name><![CDATA[Káld OKTPH_13_2]]></name>
+<desc><![CDATA[Iskola fémkerítésén. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=13]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3042107137</url>
+
+</wpt>
+<wpt lat="47.0918914782138" lon="17.0223946992264">
+        <ele>156</ele>
+<name><![CDATA[Hosszúpereszteg OKTPH_14]]></name>
+<desc><![CDATA[A római katolikus templom kerítésén. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=14]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3044209199</url>
+
+</wpt>
+<wpt lat="47.0549931605085" lon="17.0114068659971">
+        <ele>170</ele>
+<name><![CDATA[Szajki erdészház OKTPH_15]]></name>
+<desc><![CDATA[Erdészház bejáratával szembeni villanyoszlopon. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=13]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3044213836</url>
+
+</wpt>
+<wpt lat="47.0116886110992" lon="17.1386357088446">
+        <ele>164</ele>
+<name><![CDATA[Ötvös OKTPH_16]]></name>
+<desc><![CDATA[A műúttól az erdőben haladva kb. a 6. fán. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=13]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3044217668</url>
+
+</wpt>
+<wpt lat="46.9950050036491" lon="17.1988389127242">
+        <ele>139</ele>
+<name><![CDATA[Kisvásárhely OKTPH_17]]></name>
+<desc><![CDATA[Harangláb oszlopán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=17]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176773</url>
+
+</wpt>
+<wpt lat="46.9812813662152" lon="17.2708576575358">
+        <ele>168</ele>
+<name><![CDATA[Sümeg OKTPH_18]]></name>
+<desc><![CDATA[Vasútállomás peronján, a forgalmi iroda bejáratával szembeni fagerendán. | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=18]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330496429</url>
+
+</wpt>
+<wpt lat="46.93493697865" lon="17.2923629661116">
+        <ele>209</ele>
+<name><![CDATA[Sarvaly erdészház OKTPH_19]]></name>
+<desc><![CDATA[Erdészház kerítésén, a kapu mellett. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=19]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330558267</url>
+
+</wpt>
+<wpt lat="46.8841999643208" lon="17.2272999663764">
+        <ele>186</ele>
+<name><![CDATA[Zalaszántó OKTPH_20_1]]></name>
+<desc><![CDATA[„Ódor bolt” élelmiszerbolt teraszának korlátján | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=20]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632177791</url>
+
+</wpt>
+<wpt lat="46.8897362083574" lon="17.2285408991099">
+        <ele>198</ele>
+<name><![CDATA[Zalaszántó OKTPH_20_2]]></name>
+<desc><![CDATA[Tátika presszó külső, süllyesztett ablakában.H–V: 8–21 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=20]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632177792</url>
+
+</wpt>
+<wpt lat="46.8461649746279" lon="17.2259819581915">
+        <ele>282</ele>
+<name><![CDATA[Rezi OKTPH_21_1]]></name>
+<desc><![CDATA[Rezi falu határában lévő pihenőhelyen a „Rezi vár tanösvény” táblája melletti kőfal hátoldalán. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176780</url>
+
+</wpt>
+<wpt lat="46.8428847783132" lon="17.2189802193725">
+        <ele>264</ele>
+<name><![CDATA[Rezi OKTPH_21_2]]></name>
+<desc><![CDATA[A 021-es számú italboltban, a mosdóajtó melletti lambériafalon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=21]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176779</url>
+
+</wpt>
+<wpt lat="46.8287989665062" lon="17.1978259724099">
+        <ele>122</ele>
+<name><![CDATA[Gyöngyösi csárda OKTPH_22_1]]></name>
+<desc><![CDATA[A csárda melletti villanyoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=22]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330771095</url>
+
+</wpt>
+<wpt lat="46.8281562036278" lon="17.1981767645283">
+        <ele>124</ele>
+<name><![CDATA[Gyöngyösi csárda OKTPH_22_2]]></name>
+<desc><![CDATA[Gyöngyösi csárdával szemben, a buszmegálló esőbeállójának fémkorlátján. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=22]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4188858934</url>
+
+</wpt>
+<wpt lat="46.7889669614335" lon="17.1907830009193">
+        <ele>114</ele>
+<name><![CDATA[Hévíz OKTPH_23]]></name>
+<desc><![CDATA[Az autóbusz-állomás várótermében, a falon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330771097</url>
+
+</wpt>
+<wpt lat="46.7580937705976" lon="17.2475217620742">
+        <ele>108</ele>
+<name><![CDATA[Keszthely OKTPH_24]]></name>
+<desc><![CDATA[A keszthelyi vasútállomás mozgássérült melléhelyiségének külső falán. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330771099</url>
+
+</wpt>
+<wpt lat="46.8442453965457" lon="17.3019752091462">
+        <ele>236</ele>
+<name><![CDATA[Vállus OKTPH_25]]></name>
+<desc><![CDATA[A megszűnt vegyesbolt falán, a telefonszekrényben. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632177790</url>
+
+</wpt>
+<wpt lat="46.8692194958373" lon="17.3621103207273">
+        <ele>128</ele>
+<name><![CDATA[Lesenceistvánd OKTPH_26_1]]></name>
+<desc><![CDATA[A Fapados kocsma („Az istvándi fapados kiskocsma) pult melletti faoszlopán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=26]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330771103</url>
+
+</wpt>
+<wpt lat="46.8701999734573" lon="17.3615000053232">
+        <ele>127</ele>
+<name><![CDATA[Lesenceistvánd OKTPH_26_2]]></name>
+<desc><![CDATA[A Fatehén büfében, a fogas melletti falon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176777</url>
+
+</wpt>
+<wpt lat="46.8774639777613" lon="17.4291959671562">
+        <ele>122</ele>
+<name><![CDATA[Tapolca OKTPH_27]]></name>
+<desc><![CDATA[A Lokomotív büfé és étterem teraszának faoszlopán -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176788</url>
+
+</wpt>
+<wpt lat="46.8470962912041" lon="17.4514592741686">
+        <ele>255</ele>
+<name><![CDATA[Szent György-hegy OKTPH_28]]></name>
+<desc><![CDATA[A turistaház ablakában (nyitható spaletták), a régi pecsételőhelyes fa közelében. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4320868902</url>
+
+</wpt>
+<wpt lat="46.8046000173604" lon="17.4356999494762">
+        <ele>196</ele>
+<name><![CDATA[Szigliget OKTPH_29_1]]></name>
+<desc><![CDATA[A várpénztár terméskő falán. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176786</url>
+
+</wpt>
+<wpt lat="46.803099980705" lon="17.4348999997157">
+        <ele>168</ele>
+<name><![CDATA[Szigliget OKTPH_29_2]]></name>
+<desc><![CDATA[In vino veritas borbolt bejárati „pincefolyósólyának” jobb oldalán. Szezonális, telefonon érdeklődni! -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176784</url>
+
+</wpt>
+<wpt lat="46.8032929986291" lon="17.4347979510994">
+        <ele>168</ele>
+<name><![CDATA[Szigliget OKTPH_29_3]]></name>
+<desc><![CDATA[Hirdetőtábla faoszlopán, a templom mellett -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176785</url>
+
+</wpt>
+<wpt lat="46.809775514438" lon="17.469226513184">
+        <ele>110</ele>
+<name><![CDATA[Badacsonytördemic OKTPH_30]]></name>
+<desc><![CDATA[Badacsonytördemic-Szigliget vasútállomáson, a jegypénztár melletti falon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330763685</url>
+
+</wpt>
+<wpt lat="46.87119228578" lon="17.5034563679278">
+        <ele>349</ele>
+<name><![CDATA[Csobánci OKTPH_31_B]]></name>
+<desc><![CDATA[vár zászlótartó rúdján -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/5135139078</url>
+
+</wpt>
+<wpt lat="46.8493632588781" lon="17.5132792658965">
+        <ele>125</ele>
+<name><![CDATA[Káptalantóti OKTPH_31]]></name>
+<desc><![CDATA[Horváth-kert büfében, a bejárattal szembeni falon (kupák mellett) -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176774</url>
+
+</wpt>
+<wpt lat="46.8872999630124" lon="17.5636999959951">
+        <ele>172</ele>
+<name><![CDATA[Szentbékkálla OKTPH_32]]></name>
+<desc><![CDATA[Vegyesbolt/dohánybolt/kocsma fedett teraszos kerthelyiségében, a kerekes kút oldalán. Bolt: H–P: 7–13; Szo–V: 7–11; Dohánybolt/kocsma: H–P: 7–9, 11–13, 17–20; Szo–V: 7–12, 17–20 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=32]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176783</url>
+
+</wpt>
+<wpt lat="46.9121408163189" lon="17.6154610124976">
+        <ele>225</ele>
+<name><![CDATA[Balatonhenye OKTPH_33]]></name>
+<desc><![CDATA[Italbolt hátsó kerthelyiségének ablak melletti falán (a délutáni nyitva tartás szezonális) -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176764</url>
+
+</wpt>
+<wpt lat="46.9474999853706" lon="17.6514000019009">
+        <ele>323</ele>
+<name><![CDATA[Csicsói erdészház OKTPH_34]]></name>
+<desc><![CDATA[Az erdei iskola bejáratánál, egy faoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=34]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176767</url>
+
+</wpt>
+<wpt lat="46.9823030010028" lon="17.6960019845782">
+        <ele>270</ele>
+<name><![CDATA[Nagyvázsony OKTPH_35_1]]></name>
+<desc><![CDATA[A Kinizsi söröző bejárattól jobbra eső boxának faoszlopán -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632176778</url>
+
+</wpt>
+<wpt lat="46.9846835733231" lon="17.6961083451078">
+        <ele>245</ele>
+<name><![CDATA[Nagyvázsony OKTPH_35_2]]></name>
+<desc><![CDATA[Várpénztár terméskő falán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=35]]></desc>
+<url>http://www.openstreetmap.org/browse/node/1426990785</url>
+
+</wpt>
+<wpt lat="47.0521000085028" lon="17.6522499878228">
+        <ele>537</ele>
+<name><![CDATA[Kab-hegy OKTPH_36]]></name>
+<desc><![CDATA[Kab-hegyi erdészházzal szembeni téglagarázs falán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=36]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330771112</url>
+
+</wpt>
+<wpt lat="47.081771186912" lon="17.6453716775238">
+        <ele>411</ele>
+<name><![CDATA[Úrkút OKTPH_37]]></name>
+<desc><![CDATA[Kék Túra vendéglő külső falán, az ajtó melletti ablakban | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=37]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545043</url>
+
+</wpt>
+<wpt lat="47.1343122973872" lon="17.6316879102954">
+        <ele>280</ele>
+<name><![CDATA[Városlőd OKTPH_38_1]]></name>
+<desc><![CDATA[Városlőd-Kislőd vasútállomás forgalmi irodája előtt, a falon.Váróterem: 5.30 – 23.00 (forgalmi irodában 0–24 ügyelet) -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545034</url>
+
+</wpt>
+<wpt lat="47.1479618982795" lon="17.6537668830115">
+        <ele>298</ele>
+<name><![CDATA[Városlőd OKTPH_38_2]]></name>
+<desc><![CDATA[Fenyves kocsma pulttal szembeni ablakában -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545035</url>
+
+</wpt>
+<wpt lat="47.2176940844245" lon="17.6517529499761">
+        <ele>327</ele>
+<name><![CDATA[Németbánya OKTPH_39]]></name>
+<desc><![CDATA[Az „Isten hozta Németbányán tábla előtti faoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=39]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545025</url>
+
+</wpt>
+<wpt lat="47.2586999936309" lon="17.716299957412">
+        <ele>270</ele>
+<name><![CDATA[Bakonybél OKTPH_40_1]]></name>
+<desc><![CDATA[A Gerence fogadó, turistaszálló ablakrácsán (ajtó mellett). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=40]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545000</url>
+
+</wpt>
+<wpt lat="47.2569739701566" lon="17.7192017852743">
+        <ele>263</ele>
+<name><![CDATA[Bakonybél OKTPH_40_2]]></name>
+<desc><![CDATA[Vadszőlő étterem, szálló bejáratiajtó-tokján. Hétfő-kedd téli nyitvatartás szerint szünnap (a honlapon érdemes tájékozódni) -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632544999</url>
+
+</wpt>
+<wpt lat="47.2943877733221" lon="17.7545362084914">
+        <ele>706</ele>
+<name><![CDATA[Kőris-hegy OKTPH_41]]></name>
+<desc><![CDATA[Kőris-hegyi kilátó aljában. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=41]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545023</url>
+
+</wpt>
+<wpt lat="47.2900802101185" lon="17.832916462819">
+        <ele>410</ele>
+<name><![CDATA[Borzavár OKTPH_42_1]]></name>
+<desc><![CDATA[Borzavár, polgármesteri hivatal ablakrácsán.Hétfő: 8–12 Kedd : 8–16 Szerda : – Csütörtök: 8–16 Péntek : – -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545008</url>
+
+</wpt>
+<wpt lat="47.2900636976662" lon="17.8364712760613">
+        <ele>399</ele>
+<name><![CDATA[Borzavár OKTPH_42_2]]></name>
+<desc><![CDATA[Oázis presszó teraszán.H–Cs: 16–21; K: zárva; P: 16–21; Szo–V: 9–13, 15–21 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=42]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545007</url>
+
+</wpt>
+<wpt lat="47.2900476726615" lon="17.8340584012082">
+        <ele>406</ele>
+<name><![CDATA[Borzavár OKTPH_42_3]]></name>
+<desc><![CDATA[Vegyesbolt melletti kerítésen. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545006</url>
+
+</wpt>
+<wpt lat="47.266559486924" lon="17.8778765139685">
+        <ele>381</ele>
+<name><![CDATA[Zirc OKTPH_43]]></name>
+<desc><![CDATA[Zirc vasútállomás várótermében, a pénztárnál. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545036</url>
+
+</wpt>
+<wpt lat="47.272256984418" lon="17.9728499990668">
+        <ele>316</ele>
+<name><![CDATA[Bakonynána OKTPH_44]]></name>
+<desc><![CDATA[Bakonynána, Tési út és az Alkotmány utca találkozásánál. (Kék sáv és kék kereszt turistajelzések elágazásánál.) Fa villanyoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=44]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545002</url>
+
+</wpt>
+<wpt lat="47.2841581851154" lon="18.0241112827767">
+        <ele>240</ele>
+<name><![CDATA[Jásd OKTPH_45_1]]></name>
+<desc><![CDATA[Bisztró korlátján. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=45]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545017</url>
+
+</wpt>
+<wpt lat="47.2823529769542" lon="18.0229039470348">
+        <ele>236</ele>
+<name><![CDATA[Jásd OKTPH_45_2]]></name>
+<desc><![CDATA[Vegyesbolt kerítésen. Vasárnap: 7.30 – -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545016</url>
+
+</wpt>
+<wpt lat="47.2706876889224" lon="18.0581510540063">
+        <ele>443</ele>
+<name><![CDATA[Csőszpuszta OKTPH_46]]></name>
+<desc><![CDATA[Alba Regia Barlangkutató Állomás ajtajának fakeretén. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=46]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545011</url>
+
+</wpt>
+<wpt lat="47.3016918181554" lon="18.1177463679332">
+        <ele>219</ele>
+<name><![CDATA[Kisgyón OKTPH_47_1]]></name>
+<desc><![CDATA[Gyöngyvirág kulcsosház kapuján. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=47]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545019</url>
+
+</wpt>
+<wpt lat="47.3005550119585" lon="18.1209370041593">
+        <ele>238</ele>
+<name><![CDATA[Kisgyón OKTPH_47_2]]></name>
+<desc><![CDATA[Kisgyónbánya, a kékkörös információs tábla oldalán. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545018</url>
+
+</wpt>
+<wpt lat="47.2451000135498" lon="18.1970999468711">
+        <ele>200</ele>
+<name><![CDATA[Bakonykúti OKTPH_48]]></name>
+<desc><![CDATA[Bakonykúti, buszmegálló melletti faoszlopon, a polgármesteri hivatallal szemben. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=48]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545001</url>
+
+</wpt>
+<wpt lat="47.2807432104672" lon="18.2581031005112">
+        <ele>153</ele>
+<name><![CDATA[Fehérvárcsurgó OKTPH_49]]></name>
+<desc><![CDATA[Becsali büfé faláa | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=49]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545012</url>
+
+</wpt>
+<wpt lat="47.3245036125532" lon="18.2317236230354">
+        <ele>151</ele>
+<name><![CDATA[Bodajk OKTPH_50_A_1]]></name>
+<desc><![CDATA[Fenyő bisztró belső ajtófélfáján -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545004</url>
+
+</wpt>
+<wpt lat="47.3303000188122" lon="18.2373000049931">
+        <ele>142</ele>
+<name><![CDATA[Bodajk OKTPH_50_A_2]]></name>
+<desc><![CDATA[Csókakő vasúti megállóhely (villanyoszlop). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=50]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545005</url>
+
+</wpt>
+<wpt lat="47.3194500146154" lon="18.2226999561749">
+        <ele>187</ele>
+<name><![CDATA[Bodajk OKTPH_50_A_3]]></name>
+<desc><![CDATA[Sípálya melegedőjének vaskorlátján. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545003</url>
+
+</wpt>
+<wpt lat="47.359165774939" lon="18.2778849912144">
+        <ele>297</ele>
+<name><![CDATA[Csókakő OKTPH_50_B]]></name>
+<desc><![CDATA[Csókakő, a vár alatti parkolóban, fa villanyoszlopon. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545010</url>
+
+</wpt>
+<wpt lat="47.3918917586855" lon="18.3891321763367">
+        <ele>216</ele>
+<name><![CDATA[Gánt OKTPH_51_1]]></name>
+<desc><![CDATA[Gránás turistaház (a villanyóra szekrényben). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=52]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545015</url>
+
+</wpt>
+<wpt lat="47.3899999786585" lon="18.3877999747703">
+        <ele>215</ele>
+<name><![CDATA[Gánt OKTPH_51_2]]></name>
+<desc><![CDATA[Mary Néni vendéglő ablakában -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545014</url>
+
+</wpt>
+<wpt lat="47.4230790949315" lon="18.3381005918449">
+        <ele>335</ele>
+<name><![CDATA[Mindszentpuszta OKTPH_52]]></name>
+<desc><![CDATA[Mindszentpuszta, kulcsosház kerítésén. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545024</url>
+
+</wpt>
+<wpt lat="47.443199991953" lon="18.3904999511883">
+        <ele>317</ele>
+<name><![CDATA[Kőhányás OKTPH_53]]></name>
+<desc><![CDATA[Kőhányás, Steinau vendégház előtti faoszlopon. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545022</url>
+
+</wpt>
+<wpt lat="47.4741954931611" lon="18.3975517261686">
+        <ele>277</ele>
+<name><![CDATA[Várgesztes OKTPH_54_1]]></name>
+<desc><![CDATA[Vadásztanya söröző bárpultjánál | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=55]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545032</url>
+
+</wpt>
+<wpt lat="47.4760200711412" lon="18.3962051515577">
+        <ele>276</ele>
+<name><![CDATA[Várgesztes OKTPH_54_2]]></name>
+<desc><![CDATA[Gesztes Market vegyesbolt ablakrácsán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=55]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545033</url>
+
+</wpt>
+<wpt lat="47.5181000157479" lon="18.4963000219223">
+        <ele>227</ele>
+<name><![CDATA[Szárliget OKTPH_55]]></name>
+<desc><![CDATA[Szárligeti vasútállomás forgalmi irodájának vágányok felőli falán, Szárliget-tábla alatt. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545031</url>
+
+</wpt>
+<wpt lat="47.5745338743332" lon="18.5343312774538">
+        <ele>395</ele>
+<name><![CDATA[Somlyóvár OKTPH_56]]></name>
+<desc><![CDATA[Somlyóvár kulcsosház bejáratnál. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545030</url>
+
+</wpt>
+<wpt lat="47.5853999720696" lon="18.4532000224001">
+        <ele>204</ele>
+<name><![CDATA[Koldusszállás OKTPH_57_1]]></name>
+<desc><![CDATA[Koldusszállás, villanyoszlopon a ház közelében. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545021</url>
+
+</wpt>
+<wpt lat="47.5825995852911" lon="18.4539670039896">
+        <ele>211</ele>
+<name><![CDATA[Koldusszállás OKTPH_57_2]]></name>
+<desc><![CDATA[Tölgyfa (a tájvédelmi körzet táblájának közelében). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=58]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545020</url>
+
+</wpt>
+<wpt lat="47.6608488188915" lon="18.4765992490893">
+        <ele>439</ele>
+<name><![CDATA[Bánya-hegyi erdészház OKTPH_58]]></name>
+<desc><![CDATA[Öreg tölgyfa a tisztáson, az erdő szélén. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545009</url>
+
+</wpt>
+<wpt lat="47.6855791794317" lon="18.4923115020608">
+        <ele>490</ele>
+<name><![CDATA[Gerecse üdülő OKTPH_59]]></name>
+<desc><![CDATA[Gerecse üdülő kerítésén. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545013</url>
+
+</wpt>
+<wpt lat="47.6889487077102" lon="18.5187616769494">
+        <ele>351</ele>
+<name><![CDATA[Pusztamarót OKTPH_60_1]]></name>
+<desc><![CDATA[Fenyőfa (az öreg temető mellett). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=61]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545027</url>
+
+</wpt>
+<wpt lat="47.6876017691297" lon="18.520186225327">
+        <ele>337</ele>
+<name><![CDATA[Pusztamarót OKTPH_60_2]]></name>
+<desc><![CDATA[Pusztamarót, büfé falán a bejáratnál. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=61]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545026</url>
+
+</wpt>
+<wpt lat="47.7087193755075" lon="18.5873570320448">
+        <ele>162</ele>
+<name><![CDATA[Péliföldszentkereszt OKTPH_61_1]]></name>
+<desc><![CDATA[Öreg tölgyfa a templom mellett. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545028</url>
+
+</wpt>
+<wpt lat="47.7087557649685" lon="18.5873585591808">
+        <ele>169</ele>
+<name><![CDATA[Péliföldszentkereszt OKTPH_61_2]]></name>
+<desc><![CDATA[A templom mögötti kávézó teraszának oszlopán.Időszakosan nyitva | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=62]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4632545029</url>
+
+</wpt>
+<wpt lat="47.7274419017511" lon="18.5997483930739">
+        <ele>158</ele>
+<name><![CDATA[Mogyorósbánya OKTPH_62]]></name>
+<desc><![CDATA[A Kakukk söröző ajtajában -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537219</url>
+
+</wpt>
+<wpt lat="47.7192441794661" lon="18.6253980792129">
+        <ele>132</ele>
+<name><![CDATA[Tokodi pincék OKTPH_63_A]]></name>
+<desc><![CDATA[Tokodi pincék, a Kavics Lak kocsifelhajtónál, faoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=64]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537238</url>
+
+</wpt>
+<wpt lat="47.7210737693391" lon="18.654391384671">
+        <ele>117</ele>
+<name><![CDATA[Tokod OKTPH_63_B]]></name>
+<desc><![CDATA[Aladár kocsma, a pult melletti falon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537237</url>
+
+</wpt>
+<wpt lat="47.7231910070066" lon="18.7327464861706">
+        <ele>127</ele>
+<name><![CDATA[Dorog OKTPH_64]]></name>
+<desc><![CDATA[Vasútállomás, a forgalmi iroda bejáratánál. Ideiglenesen áthelyezve a vasúti aluljáró lejáratához | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=65]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537203</url>
+
+</wpt>
+<wpt lat="47.7010000041704" lon="18.8350000081629">
+        <ele>317</ele>
+<name><![CDATA[Klastrompuszta OKTPH_65_1]]></name>
+<desc><![CDATA[Kémény u.–Klastrompuszta út, villanyoszlopon a romok előtt. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=66]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537214</url>
+
+</wpt>
+<wpt lat="47.7019653054955" lon="18.8331563058738">
+        <ele>290</ele>
+<name><![CDATA[Klastrompuszta OKTPH_65_2]]></name>
+<desc><![CDATA[Tölgyfa büfé kapuján -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537215</url>
+
+</wpt>
+<wpt lat="47.6394429626155" lon="18.8283199560472">
+        <ele>229</ele>
+<name><![CDATA[Piliscsaba OKTPH_66]]></name>
+<desc><![CDATA[Piliscsaba, a Wesselényi, az Árpád vezér és a Kálmán király utca találkozásánál, egy villanyoszlopon. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537226</url>
+
+</wpt>
+<wpt lat="47.5894000050844" lon="18.9004999484523">
+        <ele>399</ele>
+<name><![CDATA[Zsíros-hegy OKTPH_67_1]]></name>
+<desc><![CDATA[Tölgyfa (a Muflon Itató előtt). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=68]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537243</url>
+
+</wpt>
+<wpt lat="47.5893600183846" lon="18.9005620220384">
+        <ele>399</ele>
+<name><![CDATA[Zsíros-hegy OKTPH_67_2]]></name>
+<desc><![CDATA[Muflon Itató kerítésén, belülről rögzítve. Délután 16-kor nyit | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=68]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537242</url>
+
+</wpt>
+<wpt lat="47.5410218891207" lon="18.9637346070897">
+        <ele>242</ele>
+<name><![CDATA[Hűvösvölgy OKTPH_68_1]]></name>
+<desc><![CDATA[Hűvösvölgy, a Gyermekvasút váróteremében a falon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=69]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537209</url>
+
+</wpt>
+<wpt lat="47.5407428751512" lon="18.9639315177999">
+        <ele>232</ele>
+<name><![CDATA[Hűvösvölgy OKTPH_68_2]]></name>
+<desc><![CDATA[Hűvösvölgy, Gyermekvasút, (peron) lejáró mellett a betonoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=69]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537208</url>
+
+</wpt>
+<wpt lat="47.5545366729707" lon="18.9989208082849">
+        <ele>473</ele>
+<name><![CDATA[Hármashatár-hegy OKTPH_69_1]]></name>
+<desc><![CDATA[Villanyoszlopon (az adótorony mellett). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=70]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537206</url>
+
+</wpt>
+<wpt lat="47.5545320047506" lon="18.9997389938456">
+        <ele>467</ele>
+<name><![CDATA[Hármashatár-hegy OKTPH_69_2]]></name>
+<desc><![CDATA[Udvarház étterem bejárati kapuja melletti akácfán. Ápr. 1. – Okt. 31:H–V: 12–23 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=70]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537205</url>
+
+</wpt>
+<wpt lat="47.55634239418" lon="18.9979575448057">
+        <ele>476</ele>
+<name><![CDATA[Hármashatár-hegy OKTPH_69_3]]></name>
+<desc><![CDATA[Zöld Bázis Erdei Iskola vaskorlátján. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=70]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537207</url>
+
+</wpt>
+<wpt lat="47.5656999861657" lon="18.9894999962372">
+        <ele>361</ele>
+<name><![CDATA[Virágos-nyereg OKTPH_70]]></name>
+<desc><![CDATA[Fa villanyoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=71]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537240</url>
+
+</wpt>
+<wpt lat="47.5851302829886" lon="18.9897322107382">
+        <ele>126</ele>
+<name><![CDATA[Rozália téglagyár OKTPH_71]]></name>
+<desc><![CDATA[Rozália téglagyár előtti fa villanyoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=72]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537234</url>
+
+</wpt>
+<wpt lat="47.6268832993613" lon="18.9766446553638">
+        <ele>427</ele>
+<name><![CDATA[Kevély- nyereg OKTPH_72]]></name>
+<desc><![CDATA[Kevély-nyereg, esőbeálló melletti fán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=73]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537212</url>
+
+</wpt>
+<wpt lat="47.6940613636381" lon="18.9023777867222">
+        <ele>345</ele>
+<name><![CDATA[Pilisszentkereszt OKTPH_73_1]]></name>
+<desc><![CDATA[Felső kocsma, pultnál a falon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=74]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537228</url>
+
+</wpt>
+<wpt lat="47.6932251915789" lon="18.901300616865">
+        <ele>339</ele>
+<name><![CDATA[Pilisszentkereszt OKTPH_73_2]]></name>
+<desc><![CDATA[Vegyesbolt/diszkont ablakrácsán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=74]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537227</url>
+
+</wpt>
+<wpt lat="47.7195107594354" lon="18.8988912454415">
+        <ele>694</ele>
+<name><![CDATA[Dobogókő OKTPH_74]]></name>
+<desc><![CDATA[Eötvös Lóránd turistaház bejáratnál, a falon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=75]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537202</url>
+
+</wpt>
+<wpt lat="47.7052999826659" lon="18.9618999777849">
+        <ele>327</ele>
+<name><![CDATA[Sikárosi erdészház OKTPH_75]]></name>
+<desc><![CDATA[Erdészház, kerítéskapu előtti fán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=76]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537235</url>
+
+</wpt>
+<wpt lat="47.7235028896624" lon="18.9876111086893">
+        <ele>361</ele>
+<name><![CDATA[Pilisszentlászló OKTPH_76_1]]></name>
+<desc><![CDATA[Pilisszentlászló, Janosikova kocsma bárpultjánál -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537231</url>
+
+</wpt>
+<wpt lat="47.7207679759398" lon="18.9862010231878">
+        <ele>401</ele>
+<name><![CDATA[Pilisszentlászló OKTPH_76_2]]></name>
+<desc><![CDATA[Kis Rigó vendéglő kapuján -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537229</url>
+
+</wpt>
+<wpt lat="47.7377000029453" lon="19.0120000093271">
+        <ele>483</ele>
+<name><![CDATA[Pap-réti erdészház OKTPH_77]]></name>
+<desc><![CDATA[Erdészház kerítésén | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=78]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537225</url>
+
+</wpt>
+<wpt lat="47.7950000080238" lon="18.9899000160333">
+        <ele>348</ele>
+<name><![CDATA[Nagy-Villám OKTPH_78_1]]></name>
+<desc><![CDATA[Nagy-Villám vendéglő, főbejáratánál | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=79]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537221</url>
+
+</wpt>
+<wpt lat="47.7955010105065" lon="18.9922219813797">
+        <ele>372</ele>
+<name><![CDATA[Nagy-Villám OKTPH_78_2]]></name>
+<desc><![CDATA[Nagy-Villám, Zsitvay-kilátó ajtaján. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=79]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537222</url>
+
+</wpt>
+<wpt lat="47.7859980978823" lon="18.9669927966252">
+        <ele>103</ele>
+<name><![CDATA[Visegrád OKTPH_79]]></name>
+<desc><![CDATA[Révállomás közelében, egy villanyoszlopon. Az étterem teraszának sarkánál. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=80]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537241</url>
+
+</wpt>
+<wpt lat="47.7911862685212" lon="18.9590237519082">
+        <ele>110</ele>
+<name><![CDATA[Nagymaros OKTPH_80]]></name>
+<desc><![CDATA[Vasútállomás, peron Budapest felé, a pénztárbejárat előtti, lambériával burkolt oszlopon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=81]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537223</url>
+
+</wpt>
+<wpt lat="47.8308984019572" lon="18.9433241651822">
+        <ele>237</ele>
+<name><![CDATA[Törökmező turistaház OKTPH_81]]></name>
+<desc><![CDATA[Turistaház éttermének bejáratánál, kívülről a bal oldalon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=82]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537239</url>
+
+</wpt>
+<wpt lat="47.8906482952784" lon="18.9277365085407">
+        <ele>324</ele>
+<name><![CDATA[Kisinóci turistaház OKTPH_82]]></name>
+<desc><![CDATA[Turistaház sörkertjének bejáratától jobbra, a terasz fenyőfa oszlopán -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537213</url>
+
+</wpt>
+<wpt lat="47.9361363638254" lon="18.9217979258604">
+        <ele>841</ele>
+<name><![CDATA[Nagy-Hideg-hegy OKTPH_83]]></name>
+<desc><![CDATA[Turistaszálló büfé mellett balra, a térelválasztó fal fafelületén.H–V: 0–24 (turistaszálló) H–V: 8–20 (büfé) -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537220</url>
+
+</wpt>
+<wpt lat="47.9023277653822" lon="19.0472180108833">
+        <ele>212</ele>
+<name><![CDATA[Nógrád OKTPH_84]]></name>
+<desc><![CDATA[Vasútállomás várótermében, a pénztár ablakrácsán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=85]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537224</url>
+
+</wpt>
+<wpt lat="47.879220986811" lon="19.0357866793983">
+        <ele>373</ele>
+<name><![CDATA[Kő-hegy, Lokó-pihenő OKTPH_85_2]]></name>
+<desc><![CDATA[Esőbeálló oszlopán -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4819515296</url>
+
+</wpt>
+<wpt lat="47.8480131967324" lon="19.054775267874">
+        <ele>151</ele>
+<name><![CDATA[Magyarkút OKTPH_85_1]]></name>
+<desc><![CDATA[A kocsma fakapujának jobb oldali faoszlopán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=86]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537218</url>
+
+</wpt>
+<wpt lat="47.8504901043547" lon="19.1056408437013">
+        <ele>176</ele>
+<name><![CDATA[Katalinpuszta OKTPH_86_1]]></name>
+<desc><![CDATA[Pénztár előtti esőbeálló oszlopán, fadoboz belsejében | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=87]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537210</url>
+
+</wpt>
+<wpt lat="47.8556025758951" lon="19.104871526492">
+        <ele>223</ele>
+<name><![CDATA[Katalinpuszta OKTPH_86_2]]></name>
+<desc><![CDATA[Fogadó bejárata előtti előtető tartóoszlopán -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537211</url>
+
+</wpt>
+<wpt lat="47.8577949876939" lon="19.1958362796349">
+        <ele>272</ele>
+<name><![CDATA[Ősagárd OKTPH_87_1]]></name>
+<desc><![CDATA[Útjelző oszlopon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537252</url>
+
+</wpt>
+<wpt lat="47.8591266157642" lon="19.1917528976794">
+        <ele>271</ele>
+<name><![CDATA[Ősagárd OKTPH_87_2]]></name>
+<desc><![CDATA[A buszmegállónál az OKK útirány-jelző oszlopán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=88]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537253</url>
+
+</wpt>
+<wpt lat="47.8870348932113" lon="19.1959003295146">
+        <ele>181</ele>
+<name><![CDATA[Felsőpetény OKTPH_88]]></name>
+<desc><![CDATA[A bezárt söröző előtti térhatároló kerítés fadeszkáján.  | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=89]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537204</url>
+
+</wpt>
+<wpt lat="47.8748460172092" lon="19.2443077553984">
+        <ele>208</ele>
+<name><![CDATA[Alsópetény OKTPH_89_1]]></name>
+<desc><![CDATA[Buszmegálló hirdetőtáblájának faoszlopán -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537195</url>
+
+</wpt>
+<wpt lat="47.8751703672656" lon="19.2436070694768">
+        <ele>209</ele>
+<name><![CDATA[Alsópetény OKTPH_89_2]]></name>
+<desc><![CDATA[Söröző bejárati rácsa és ajtaja között, a falambérián, a bejárat bal oldalán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=89]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537196</url>
+
+</wpt>
+<wpt lat="47.9239532071974" lon="19.265744522518">
+        <ele>155</ele>
+<name><![CDATA[Romhány OKTPH_90_1]]></name>
+<desc><![CDATA[A Fáradt Vándor Panzió és Étterem teraszának oszlopán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=90]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537233</url>
+
+</wpt>
+<wpt lat="47.9191914800562" lon="19.2628344301551">
+        <ele>159</ele>
+<name><![CDATA[Romhány OKTPH_90_2]]></name>
+<desc><![CDATA[Presszóban a pult mellett, balra a lambérián -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537232</url>
+
+</wpt>
+<wpt lat="47.9362587767121" lon="19.2856602621984">
+        <ele>173</ele>
+<name><![CDATA[Kétbodony OKTPH_91]]></name>
+<desc><![CDATA[Épület melletti terasz fenyőoszlopán, a főbejárattól balra | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=91]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537216</url>
+
+</wpt>
+<wpt lat="47.9108627919277" lon="19.3758486014412">
+        <ele>227</ele>
+<name><![CDATA[Becske OKTPH_92_1]]></name>
+<desc><![CDATA[Fagyizó, kertkapu fémrácsára szerelve. H–P: változó; Szo–V: 10–18; nov. 1 – ápr. 1 között zárva -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537199</url>
+
+</wpt>
+<wpt lat="47.910665112895" lon="19.3760403917544">
+        <ele>227</ele>
+<name><![CDATA[Becske OKTPH_92_2]]></name>
+<desc><![CDATA[Bejárati szélfogban, a bejárattól jobbra, falra szerelve -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537198</url>
+
+</wpt>
+<wpt lat="47.9099918665158" lon="19.3770867493973">
+        <ele>224</ele>
+<name><![CDATA[Becske OKTPH_92_3]]></name>
+<desc><![CDATA[A bolt bejárati szélfogójában bal oldalon, a falon lévő bútorlapra szerelve | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=92]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537197</url>
+
+</wpt>
+<wpt lat="47.9276551053494" lon="19.4110008463187">
+        <ele>242</ele>
+<name><![CDATA[Szandaváralja OKTPH_93]]></name>
+<desc><![CDATA[Buszfordulónál, a főút melletti fa villanyoszlopon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=93]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537236</url>
+
+</wpt>
+<wpt lat="47.9761608158294" lon="19.4256664721526">
+        <ele>183</ele>
+<name><![CDATA[Cserhátsurány OKTPH_94_1]]></name>
+<desc><![CDATA[Söröző pultja mellett balra, a vakolt téglafalon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=94]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537201</url>
+
+</wpt>
+<wpt lat="47.9758885758364" lon="19.4260420577729">
+        <ele>183</ele>
+<name><![CDATA[Cserhátsurány OKTPH_94_2]]></name>
+<desc><![CDATA[Presszó pultjától jobbra, a vakolt téglafalon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4633537200</url>
+
+</wpt>
+<wpt lat="48.0043332886868" lon="19.51033439448">
+        <ele>223</ele>
+<name><![CDATA[Nógrádsipek OKTPH_95_1]]></name>
+<desc><![CDATA[Presszó fenyőfa teraszának oszlopa, a bejárat mellett | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=95]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780308</url>
+
+</wpt>
+<wpt lat="48.0077383069494" lon="19.5024967732891">
+        <ele>219</ele>
+<name><![CDATA[Nógrádsipek OKTPH_95_2]]></name>
+<desc><![CDATA[Bolt bejárati szélfogójának fenyőfa oldalfalán -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780309</url>
+
+</wpt>
+<wpt lat="47.9975960946096" lon="19.5907153766084">
+        <ele>326</ele>
+<name><![CDATA[Hollókő OKTPH_96_1]]></name>
+<desc><![CDATA[Bejárattól balra, a pozdorja térelválasztó falon.Nyári (04. 01. – 09. 30.)H–V: 8–22;Téli (10. 01. – 03. 31.)H–V: 8–20 -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771385</url>
+
+</wpt>
+<wpt lat="47.9977782932323" lon="19.5906860915301">
+        <ele>326</ele>
+<name><![CDATA[Hollókő OKTPH_96_2]]></name>
+<desc><![CDATA[Kávézó főbejáratától balra, a klinkertégla falra szerelve.Nyári (04. 01. – 09.30.)H–V: 8.30 – 17.30;Téli (10. 01. – 03. 31.)H–V: 8.30 – 16.00 -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771386</url>
+
+</wpt>
+<wpt lat="47.9384098620683" lon="19.6079556638781">
+        <ele>337</ele>
+<name><![CDATA[Bableves csárda OKTPH_97]]></name>
+<desc><![CDATA[Csárda teraszának faoszlopán, a bejárattól balra -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771349</url>
+
+</wpt>
+<wpt lat="47.9937539042017" lon="19.7006228143159">
+        <ele>228</ele>
+<name><![CDATA[Nagybárkány OKTPH_98_1]]></name>
+<desc><![CDATA[Presszó teraszának külső deszkáin, a bejáratától balra.Bolt H–P: 6.30 – 11.30; Szo–V: 8–12, 15–20;Presszó H–P: 15–20;Szo–V: 8–12, 15–20 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=98]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780306</url>
+
+</wpt>
+<wpt lat="47.9685525898489" lon="19.7793565557079">
+        <ele>189</ele>
+<name><![CDATA[Mátraverebély OKTPH_99_1]]></name>
+<desc><![CDATA[A megállóhelynél a vasutat keresztező földutat biztosító fénysorompó mellett lévő fán.H–V: 0–24 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=99]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780302</url>
+
+</wpt>
+<wpt lat="47.9697633077285" lon="19.7807018726774">
+        <ele>181</ele>
+<name><![CDATA[Mátraverebély OKTPH_99_2]]></name>
+<desc><![CDATA[Móricz kocsma, pult mellett balra, a vakolt téglafalon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=99]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780303</url>
+
+</wpt>
+<wpt lat="47.975630586977" lon="19.7769276908427">
+        <ele>179</ele>
+<name><![CDATA[Mátraverebély OKTPH_99_3]]></name>
+<desc><![CDATA[Vegyesbolt, bejárattól balra, vakolt téglafalon a kasszával szemben | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=99]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780304</url>
+
+</wpt>
+<wpt lat="47.9230572788917" lon="19.8254987897713">
+        <ele>645</ele>
+<name><![CDATA[Ágasvár turistaház OKTPH_100_1]]></name>
+<desc><![CDATA[Turistaház éttermének pultjától balra, a kályhától jobbra, a falambérián.Szo–V + hosszú hétvégéken és iskolai szünetekben mindennap: 9–20 -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780342</url>
+
+</wpt>
+<wpt lat="47.9233276903868" lon="19.8258536243085">
+        <ele>645</ele>
+<name><![CDATA[Ágasvár turistaház OKTPH_100_2]]></name>
+<desc><![CDATA[A turistaház udvari bejárata melletti OKK információs tábla oszlopán.H–V: 0–24 -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780343</url>
+
+</wpt>
+<wpt lat="47.9266365650096" lon="19.8707779225097">
+        <ele>709</ele>
+<name><![CDATA[Mátraszentistván OKTPH_101_1]]></name>
+<desc><![CDATA[Vidróczki csárda előtti villanyoszlopon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=101]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780301</url>
+
+</wpt>
+<wpt lat="47.926484092231" lon="19.8721105732337">
+        <ele>723</ele>
+<name><![CDATA[Mátraszentistván OKTPH_101_2]]></name>
+<desc><![CDATA[3Patak panzió bejárati kapuján | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=101]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780300</url>
+
+</wpt>
+<wpt lat="47.9181016115167" lon="19.9221249953293">
+        <ele>958</ele>
+<name><![CDATA[Galyatető OKTPH_102_2]]></name>
+<desc><![CDATA[A csúcson, a villámhárítón -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771377</url>
+
+</wpt>
+<wpt lat="47.9165580082108" lon="19.923918481794">
+        <ele>930</ele>
+<name><![CDATA[Galyatető OKTPH_102_3]]></name>
+<desc><![CDATA[Galyatető Turistacentrum teraszán, a dekorációs, kék sáv jelzéssel ellátott fenyőrönkön. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=102]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771375</url>
+
+</wpt>
+<wpt lat="47.9164303107386" lon="19.9237955024316">
+        <ele>930</ele>
+<name><![CDATA[Galyatető OKTPH_102_4]]></name>
+<desc><![CDATA[Galyatető Turistacentrum, főbejárat mellett jobb oldalon, a falon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=102]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771374</url>
+
+</wpt>
+<wpt lat="47.9047737143984" lon="19.9578191039861">
+        <ele>695</ele>
+<name><![CDATA[Vércverés OKTPH_103]]></name>
+<desc><![CDATA[OKK információs tábla akácoszlopán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=103]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780328</url>
+
+</wpt>
+<wpt lat="47.8826792596111" lon="19.9778412940277">
+        <ele>646</ele>
+<name><![CDATA[Vörösmarty fogadó OKTPH_104_1]]></name>
+<desc><![CDATA[Bejárati kapun kívül, jobb oldalon, a kerítésen. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=104]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780329</url>
+
+</wpt>
+<wpt lat="47.8827601693813" lon="19.9782396070247">
+        <ele>651</ele>
+<name><![CDATA[Vörösmarty fogadó OKTPH_104_2]]></name>
+<desc><![CDATA[Társalgó bejáratától jobbra, a falon.04. 15. – 10. 15.: 0–24 h; 10. 16 – 04. 14.: zárva | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=104]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780330</url>
+
+</wpt>
+<wpt lat="47.8686342887623" lon="19.97755284499">
+        <ele>716</ele>
+<name><![CDATA[Mátraháza OKTPH_105_1]]></name>
+<desc><![CDATA[Mátra büfé teraszán, fenyőoszlopon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780298</url>
+
+</wpt>
+<wpt lat="47.8699720862738" lon="19.9789015755576">
+        <ele>715</ele>
+<name><![CDATA[Mátraháza OKTPH_105_2]]></name>
+<desc><![CDATA[Autóbusz-állomás fedett teraszán, a jobb oldali sarokban, a falban lévő oszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=105]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780299</url>
+
+</wpt>
+<wpt lat="47.8708679092127" lon="20.0099208514759">
+        <ele>991</ele>
+<name><![CDATA[Kékestető OKTPH_106_1]]></name>
+<desc><![CDATA[A szanatóriumi porta lépcsőfeljárójánál, jobb oldalon, a téglafalon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=106]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780294</url>
+
+</wpt>
+<wpt lat="47.8733063661396" lon="20.0079885752997">
+        <ele>1012</ele>
+<name><![CDATA[Kékestető OKTPH_106_2]]></name>
+<desc><![CDATA[A Tető étterem külső falán a bejárat mellett. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/6609763399</url>
+
+</wpt>
+<wpt lat="47.8690246037933" lon="20.0587066477573">
+        <ele>641</ele>
+<name><![CDATA[Hármashatár erdészház OKTPH_107]]></name>
+<desc><![CDATA[Új esőbeálló és pihenő fenyő tartóoszlopán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=107]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771387</url>
+
+</wpt>
+<wpt lat="47.9153679591075" lon="20.1770393845147">
+        <ele>154</ele>
+<name><![CDATA[Sirok OKTPH_108_1]]></name>
+<desc><![CDATA[Állomásépület bal oldalán, betonkerítésen. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=108]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780317</url>
+
+</wpt>
+<wpt lat="47.9316230138357" lon="20.19449158436">
+        <ele>156</ele>
+<name><![CDATA[Sirok OKTPH_108_2]]></name>
+<desc><![CDATA[Étterem teraszának fenyő tartóoszlopán.09. 01. – 06. 30.: H–P: 12–18; Szo–V: 10–18; 07. 01. – 08. 31.: H–P: 12–20; Szo–V: 10–20 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=108]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780318</url>
+
+</wpt>
+<wpt lat="47.9577148896824" lon="20.2361177179955">
+        <ele>217</ele>
+<name><![CDATA[Rozsnakpuszta OKTPH_109]]></name>
+<desc><![CDATA[Magányos körtefa, a gémeskút közelében. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=109]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780316</url>
+
+</wpt>
+<wpt lat="47.9880481909934" lon="20.3307745469561">
+        <ele>221</ele>
+<name><![CDATA[Szarvaskő OKTPH_110_1]]></name>
+<desc><![CDATA[Vár presszó, bejárattól balra | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=110]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780320</url>
+
+</wpt>
+<wpt lat="47.9883180822073" lon="20.3323592649488">
+        <ele>226</ele>
+<name><![CDATA[Szarvaskő OKTPH_110_2]]></name>
+<desc><![CDATA[Állomásépület kerítésén, bal oldalon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=110]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780321</url>
+
+</wpt>
+<wpt lat="48.0390846929157" lon="20.3517569462049">
+        <ele>384</ele>
+<name><![CDATA[Telekessy vendégház OKTPH_111_1]]></name>
+<desc><![CDATA[Öreg bükkfán, a házhoz vezető lépcső mellett. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=111]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780323</url>
+
+</wpt>
+<wpt lat="48.0389651064045" lon="20.3511621716553">
+        <ele>394</ele>
+<name><![CDATA[Telekessy vendégház OKTPH_111_2]]></name>
+<desc><![CDATA[Bejárati lépcső bal oldalán, téglafalon. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780322</url>
+
+</wpt>
+<wpt lat="48.0575968919972" lon="20.3530126113091">
+        <ele>318</ele>
+<name><![CDATA[Bélapátfalva OKTPH_112_1]]></name>
+<desc><![CDATA[A cementgyári vasúti megállóban, fenyő villanyoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=112]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771358</url>
+
+</wpt>
+<wpt lat="48.0592393716318" lon="20.3684224015244">
+        <ele>357</ele>
+<name><![CDATA[Bélapátfalva OKTPH_112_2]]></name>
+<desc><![CDATA[Szomjas Csuka vendéglő, bejárati rács mögött, jobb oldalon.06. 01. – 10. 31.: H–V: 11–21; 11. 01. – 05. 31.: Szo–V: 12–20 | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=112]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771359</url>
+
+</wpt>
+<wpt lat="48.0517280035466" lon="20.4331320938583">
+        <ele>794</ele>
+<name><![CDATA[Cserepes-kői-barlang OKTPH_113]]></name>
+<desc><![CDATA[Cserepes-kői-barlang bejáratának bal oldalán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=113]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771365</url>
+
+</wpt>
+<wpt lat="48.0998027746787" lon="20.4835478832228">
+        <ele>860</ele>
+<name><![CDATA[Bánkút OKTPH_114_1]]></name>
+<desc><![CDATA[Bánkúti Síklub turistaszálló társalgójában, bejárattal szemben, faoszlopon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=114]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771355</url>
+
+</wpt>
+<wpt lat="48.0998973829997" lon="20.4833904085535">
+        <ele>860</ele>
+<name><![CDATA[Bánkút OKTPH_114_2]]></name>
+<desc><![CDATA[Bánkúti Síklub turistaszálló étteremének bejáratánál bal oldalon, faoszlopon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=114]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771356</url>
+
+</wpt>
+<wpt lat="48.1530799899657" lon="20.493944265669">
+        <ele>297</ele>
+<name><![CDATA[Mályinka OKTPH_115]]></name>
+<desc><![CDATA[Sanyi kocsma, pult bal oldalán, faoszlopon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780297</url>
+
+</wpt>
+<wpt lat="48.218269769912" lon="20.439383559752">
+        <ele>214</ele>
+<name><![CDATA[Uppony OKTPH_116_1]]></name>
+<desc><![CDATA[Uppony,OKK útjelző oszlopon. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780325</url>
+
+</wpt>
+<wpt lat="48.2139915069443" lon="20.4401909655294">
+        <ele>211</ele>
+<name><![CDATA[Uppony OKTPH_116_2]]></name>
+<desc><![CDATA[A BB söröző kerítésének betonoszlopán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=116]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780326</url>
+
+</wpt>
+<wpt lat="48.2866067739452" lon="20.4373551638405">
+        <ele>150</ele>
+<name><![CDATA[Putnok OKTPH_117]]></name>
+<desc><![CDATA[A putnoki vasútállomás fedett peronján, a falon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=117]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780310</url>
+
+</wpt>
+<wpt lat="48.3566999717797" lon="20.4313999623274">
+        <ele>208</ele>
+<name><![CDATA[Kelemér OKTPH_118_1]]></name>
+<desc><![CDATA[A Tompa Mihály-emlékház kerítésén, a bejárat mellett | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=118]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780292</url>
+
+</wpt>
+<wpt lat="48.356763603685" lon="20.4316205885612">
+        <ele>208</ele>
+<name><![CDATA[Kelemér OKTPH_118_2]]></name>
+<desc><![CDATA[Az emlékház gondnoki házában | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=118]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780293</url>
+
+</wpt>
+<wpt lat="48.3559726761406" lon="20.4296105182815">
+        <ele>205</ele>
+<name><![CDATA[Kelemér OKTPH_118_3]]></name>
+<desc><![CDATA[A Bagolyvár élelmiszerboltban, a falon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=118]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780291</url>
+
+</wpt>
+<wpt lat="48.3750883735134" lon="20.4280370292298">
+        <ele>224</ele>
+<name><![CDATA[Gömörszőlős OKTPH_119]]></name>
+<desc><![CDATA[A néprajzi múzeum kerítésén. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=119]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771379</url>
+
+</wpt>
+<wpt lat="48.3861463028178" lon="20.4877563106659">
+        <ele>220</ele>
+<name><![CDATA[Zádorfalva OKTPH_120]]></name>
+<desc><![CDATA[A Szivárvány presszó belső falfelületén, a bejárat mellett | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=120]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780331</url>
+
+</wpt>
+<wpt lat="48.4711276828298" lon="20.4944997838407">
+        <ele>329</ele>
+<name><![CDATA[Aggtelek OKTPH_121_1]]></name>
+<desc><![CDATA[A kemping recepciójának bejárata mellett, a falon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=121]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771348</url>
+
+</wpt>
+<wpt lat="48.4709929027439" lon="20.4955887216281">
+        <ele>335</ele>
+<name><![CDATA[Aggtelek OKTPH_121_2]]></name>
+<desc><![CDATA[A nemzeti park látogatóközpontjában | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=121]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771347</url>
+
+</wpt>
+<wpt lat="48.4844761057511" lon="20.5394817538831">
+        <ele>305</ele>
+<name><![CDATA[Jósvafő OKTPH_122_1]]></name>
+<desc><![CDATA[Baradla barlang bejárata, a pénztár mellett, az oszlopon | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=122]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780289</url>
+
+</wpt>
+<wpt lat="48.4847430931633" lon="20.5394294719336">
+        <ele>294</ele>
+<name><![CDATA[Jósvafő OKTPH_122_2]]></name>
+<desc><![CDATA[A Tengerszem Szálló recepcióján | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=122]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780290</url>
+
+</wpt>
+<wpt lat="48.5416999987787" lon="20.6404000200371">
+        <ele>340</ele>
+<name><![CDATA[Derenk OKTPH_123]]></name>
+<desc><![CDATA[A kereszt melletti fán, a romközség központjában. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771366</url>
+
+</wpt>
+<wpt lat="48.5632916657231" lon="20.7022906193464">
+        <ele>495</ele>
+<name><![CDATA[Szabó-pallag erdészház OKTPH_124]]></name>
+<desc><![CDATA[Az esőbeálló oldalán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=124]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780319</url>
+
+</wpt>
+<wpt lat="48.5374620951797" lon="20.7378811522509">
+        <ele>163</ele>
+<name><![CDATA[Bódvaszilas OKTPH_125]]></name>
+<desc><![CDATA[A kerítésen. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=126]]></desc>
+<url>http://www.openstreetmap.org/browse/node/5731123321</url>
+
+</wpt>
+<wpt lat="48.5374999840331" lon="20.7377999445493">
+        <ele>163</ele>
+<name><![CDATA[Bódvaszilas OKTPH_125]]></name>
+<desc><![CDATA[A bódvaszilasi vasútállomás forgalmi irodájában | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=125]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771361</url>
+
+</wpt>
+<wpt lat="48.5126999792443" lon="20.7360999727056">
+        <ele>156</ele>
+<name><![CDATA[Bódvarákó OKTPH_126]]></name>
+<desc><![CDATA[A kerítésen, a kapu mellett. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=126]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771360</url>
+
+</wpt>
+<wpt lat="48.4917470808355" lon="20.8184287718646">
+        <ele>196</ele>
+<name><![CDATA[Tornabarakony OKTPH_127]]></name>
+<desc><![CDATA[A templommal szemben, a parókia kerítésén. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=127]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780324</url>
+
+</wpt>
+<wpt lat="48.4610661962739" lon="20.8377945629281">
+        <ele>172</ele>
+<name><![CDATA[Rakacaszend OKTPH_128_1]]></name>
+<desc><![CDATA[Magánház kis konyhájának oldalán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=128]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780311</url>
+
+</wpt>
+<wpt lat="48.461991069745" lon="20.8355008046816">
+        <ele>174</ele>
+<name><![CDATA[Rakacaszend OKTPH_128_2]]></name>
+<desc><![CDATA[A vegyesbolt bejárati ajtófélfáján (kívülről elérhető). | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=128]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780312</url>
+
+</wpt>
+<wpt lat="48.3709999901486" lon="20.9198999510759">
+        <ele>162</ele>
+<name><![CDATA[Felsővadász OKTPH_129_1]]></name>
+<desc><![CDATA[A vegyesbolt belső falán | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=129]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771371</url>
+
+</wpt>
+<wpt lat="48.3703500004591" lon="20.9155399778444">
+        <ele>158</ele>
+<name><![CDATA[Felsővadász OKTPH_129_2]]></name>
+<desc><![CDATA[A dohányboltban a pultnál.H–Szo: 6–20 -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771370</url>
+
+</wpt>
+<wpt lat="48.3695859595541" lon="20.9731155196865">
+        <ele>175</ele>
+<name><![CDATA[Abaújszolnok OKTPH_130]]></name>
+<desc><![CDATA[A falu szélén egy kerítésen. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=130]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771346</url>
+
+</wpt>
+<wpt lat="48.3726510054288" lon="21.0278832872764">
+        <ele>162</ele>
+<name><![CDATA[Baktakék OKTPH_131]]></name>
+<desc><![CDATA[A sörözőben a pult felett | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=131]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771350</url>
+
+</wpt>
+<wpt lat="48.35640001731" lon="21.0632000136824">
+        <ele>194</ele>
+<name><![CDATA[Fancsal OKTPH_132_1]]></name>
+<desc><![CDATA[A Tornyos sörözőben a pultban | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=132]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771369</url>
+
+</wpt>
+<wpt lat="48.3562999724016" lon="21.0631000311913">
+        <ele>194</ele>
+<name><![CDATA[Fancsal OKTPH_132_2]]></name>
+<desc><![CDATA[A sörözővel szembeni ház kerítésén. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=132]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771368</url>
+
+</wpt>
+<wpt lat="48.3178544053508" lon="21.1628000021569">
+        <ele>132</ele>
+<name><![CDATA[Gibárt OKTPH_133]]></name>
+<desc><![CDATA[A vízmű bejáratánál, a kerítésen. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=133]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771378</url>
+
+</wpt>
+<wpt lat="48.3486101932058" lon="21.1912650982279">
+        <ele>168</ele>
+<name><![CDATA[Hernádcéce OKTPH_134_1]]></name>
+<desc><![CDATA[A Petőfi út 4. (romos ház) kerítése melletti kőépületen. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=134]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771380</url>
+
+</wpt>
+<wpt lat="48.350610997837" lon="21.1886139901614">
+        <ele>141</ele>
+<name><![CDATA[Hernádcéce OKTPH_134_2]]></name>
+<desc><![CDATA[Az Aba étterem előtti fán lévő fadobozban -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771381</url>
+
+</wpt>
+<wpt lat="48.3448661002441" lon="21.2088361451853">
+        <ele>161</ele>
+<name><![CDATA[Boldogkőváralja OKTPH_135_1]]></name>
+<desc><![CDATA[A boldogkőváraljai vasútállomás bejárata mellett. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=135]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771354</url>
+
+</wpt>
+<wpt lat="48.344667994953" lon="21.2323279881803">
+        <ele>249</ele>
+<name><![CDATA[Boldogkőváralja OKTPH_135_2]]></name>
+<desc><![CDATA[A vár pénztáránál, a vaskapun. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771353</url>
+
+</wpt>
+<wpt lat="48.3922000109417" lon="21.3444000063965">
+        <ele>410</ele>
+<name><![CDATA[Regéc OKTPH_136_1]]></name>
+<desc><![CDATA[Veronika Panzió előtt, a kerítésen, a fadobozban. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=136]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780314</url>
+
+</wpt>
+<wpt lat="48.390747795123" lon="21.3426845835299">
+        <ele>402</ele>
+<name><![CDATA[Regéc OKTPH_136_2]]></name>
+<desc><![CDATA[A vegyesboltban a pultnál | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=136]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780313</url>
+
+</wpt>
+<wpt lat="48.3942557694451" lon="21.3460510200571">
+        <ele>421</ele>
+<name><![CDATA[Regéc OKTPH_136_3]]></name>
+<desc><![CDATA[A Csobogó vendégház előtti faoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=136]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780315</url>
+
+</wpt>
+<wpt lat="48.4085934841171" lon="21.4009543434235">
+        <ele>516</ele>
+<name><![CDATA[Istvánkúti vadászház OKTPH_137]]></name>
+<desc><![CDATA[A vadászház előtti fán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=137]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771388</url>
+
+</wpt>
+<wpt lat="48.4044133875863" lon="21.4654798811242">
+        <ele>489</ele>
+<name><![CDATA[Eszkála erdészház OKTPH_138]]></name>
+<desc><![CDATA[A ház sarkánál lévő korhadt fán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=138]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771367</url>
+
+</wpt>
+<wpt lat="48.359477973635" lon="21.5158971976247">
+        <ele>151</ele>
+<name><![CDATA[Makkoshotyka OKTPH_139_1]]></name>
+<desc><![CDATA[OKK informácós táblán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=139]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780295</url>
+
+</wpt>
+<wpt lat="48.3558999698829" lon="21.5194999809032">
+        <ele>139</ele>
+<name><![CDATA[Makkoshotyka OKTPH_139_2]]></name>
+<desc><![CDATA[A Reál Pont vegyesbolt pénztáránál, a falon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780296</url>
+
+</wpt>
+<wpt lat="48.3769472014813" lon="21.5379456276212">
+        <ele>200</ele>
+<name><![CDATA[Cirkáló-tanya OKTPH_140]]></name>
+<desc><![CDATA[Az erdészház istállójának sarkán. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=140]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771364</url>
+
+</wpt>
+<wpt lat="48.3921339776283" lon="21.6239390141502">
+        <ele>361</ele>
+<name><![CDATA[Nagy-nyugodó OKTPH_142]]></name>
+<desc><![CDATA[A nyeregben, az MTSZ információs tábláján. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780305</url>
+
+</wpt>
+<wpt lat="48.3860093881035" lon="21.657467104994">
+        <ele>105</ele>
+<name><![CDATA[Sátoraljaújhely OKTPH_143_AKPH_69]]></name>
+<desc><![CDATA[A sátoraljaújhelyi vasútállomás pénztára mellett, a falon -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4623876944</url>
+
+</wpt>
+<wpt lat="48.4229713916168" lon="21.5412543024756">
+        <ele>213</ele>
+<name><![CDATA[Vágáshuta OKTPH_144]]></name>
+<desc><![CDATA[A vendégházzal szemben az információs táblán, a telefonfülke mellett. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=142]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780327</url>
+
+</wpt>
+<wpt lat="48.4308257791359" lon="21.4922029641961">
+        <ele>245</ele>
+<name><![CDATA[Nagyhuta OKTPH_145]]></name>
+<desc><![CDATA[A polgármesteri hivatal előtti vaskerítésen. Az útjelző tábla mellett. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=143]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634780307</url>
+
+</wpt>
+<wpt lat="48.4742000118461" lon="21.4692999668699">
+        <ele>179</ele>
+<name><![CDATA[Bózsva OKTPH_146_1]]></name>
+<desc><![CDATA[A faluház előtti villanyoszlopon. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=144]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771362</url>
+
+</wpt>
+<wpt lat="48.4751442985988" lon="21.4683344576025">
+        <ele>180</ele>
+<name><![CDATA[Bózsva OKTPH_146_2]]></name>
+<desc><![CDATA[A Kőbérc Panzió Étterem pultjában; olykor délelőtt is nyitva lehet -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771363</url>
+
+</wpt>
+<wpt lat="48.5400920614915" lon="21.4552360326132">
+        <ele>371</ele>
+<name><![CDATA[Füzér OKTPH_147_1]]></name>
+<desc><![CDATA[A füzéri italbolt előtti információs táblán, az emlékmű mellett. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=145]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771373</url>
+
+</wpt>
+<wpt lat="48.5392948839269" lon="21.455377427439">
+        <ele>370</ele>
+<name><![CDATA[Füzér OKTPH_147_2]]></name>
+<desc><![CDATA[A Koronaőr vendégház külső kerítésén. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=145]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771372</url>
+
+</wpt>
+<wpt lat="48.5680999759724" lon="21.4343999689242">
+        <ele>639</ele>
+<name><![CDATA[Bodó-rét OKTPH_148_1]]></name>
+<desc><![CDATA[A Bodó-réten, az utolsó ház előtti útjelző oszlopon.
+2018-08-07: Itt egy tábla van kint, hogy a "bélyegző pihenőhely" Füzér felé vissza 150 m -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771352</url>
+
+</wpt>
+<wpt lat="48.5650621096719" lon="21.4322179610991">
+        <ele>637</ele>
+<name><![CDATA[Bodó-rét OKTPH_148_2]]></name>
+<desc><![CDATA[Az esőbeállón. -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771351</url>
+
+</wpt>
+<wpt lat="48.5334670709715" lon="21.4197960573503">
+        <ele>290</ele>
+<name><![CDATA[Hollóháza OKTPH_149_1]]></name>
+<desc><![CDATA[A porcelángyár bejáratánál, a csengő alatt. | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=147]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771383</url>
+
+</wpt>
+<wpt lat="48.5344838950034" lon="21.4184773305132">
+        <ele>300</ele>
+<name><![CDATA[Hollóháza OKTPH_149_2]]></name>
+<desc><![CDATA[A Balkon büfé külső kerítésének belső oldalán | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=147]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771382</url>
+
+</wpt>
+<wpt lat="48.5426772856581" lon="21.4129379591452">
+        <ele>320</ele>
+<name><![CDATA[Hollóháza OKTPH_149_3]]></name>
+<desc><![CDATA[A Vadász söröző pultjában -]]></desc>
+<url>http://www.openstreetmap.org/browse/node/4634771384</url>
+
+</wpt>
+<wpt lat="47.3819067090456" lon="16.5563338177915">
+        <ele>272</ele>
+<name><![CDATA[Kőszeg]]></name>
+<desc><![CDATA[- | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=3]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3044197760</url>
+
+</wpt>
+<wpt lat="47.3503250159772" lon="18.2694279816351">
+        <ele>201</ele>
+<name><![CDATA[OKT ph (Csókakő)]]></name>
+<desc><![CDATA[- | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=51]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330763692</url>
+
+</wpt>
+<wpt lat="48.5449489646286" lon="21.4614890256429">
+        <ele>445</ele>
+<name><![CDATA[OKT ph (Füzér)]]></name>
+<desc><![CDATA[- | http://www.teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=145]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330804958</url>
+
+</wpt>
+<wpt lat="46.897494706378" lon="17.2176137021623">
+        <ele>317</ele>
+<name><![CDATA[OKT ph (Zalaszántó, Sztupa)]]></name>
+<desc><![CDATA[- | http://teljesitmenyturazoktarsasaga.hu/okt_forum?a=dh&id=20]]></desc>
+<url>http://www.openstreetmap.org/browse/node/3330558268</url>
+
+</wpt>
+
+</gpx>
