@@ -4,7 +4,7 @@ import { rawFromKml, coordinatesFromGpx } from '../map/files'
 import { rawToCoordinates, filterByDistance, project } from '../map/map'
 import Data from './Data'
 import Point from '../map/Point'
-import config from '../../config/config';
+import config from '../../config/config'
 
 async function data(): Promise<Data> {
     return {
