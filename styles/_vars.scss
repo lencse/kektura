@@ -1,4 +1,9 @@
 $base: #0033CC;
+$light-base: scale-color($base, $lightness: 33%);
+$middle-base: scale-color($base, $lightness: -33%);
 $dark-base: scale-color($base, $lightness: -66%);
+
 $alt: #0B13E3;
+$light-alt: scale-color($alt, $lightness: 33%);
 $middle-alt: scale-color($alt, $lightness: -33%);
+$dark-alt: scale-color($alt, $lightness: -66%);

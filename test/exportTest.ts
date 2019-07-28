@@ -13,6 +13,7 @@ describe('Data export', () => {
         )
         expect(data.budapest.length).toBeGreaterThan(100)
         expect(data.hungary.length).toBeGreaterThan(100)
+        expect(data.kektura.length).toBeGreaterThan(100)
     })
 
 })

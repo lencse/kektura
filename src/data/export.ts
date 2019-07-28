@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
-import { rawFromKml } from '../map/kml'
+import { rawFromKml, coordinatesFromGpx } from '../map/files'
 import { rawToCoordinates, filterByDistance, project } from '../map/map'
 import Data from './Data'
 import Point from '../map/Point'
@@ -9,11 +9,13 @@ async function data(): Promise<Data> {
     return {
         hungary: await hungary(),
         budapest: await budapest(),
+        kektura: await kektura()
     }
 }
 
 const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', 250)
 const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', 200)
+const kektura = gpxData('okt_teljes_gpx_2019-06-28.gpx', 250)
 
 function kmlData(
     kmlFileName: string,
@@ -23,16 +25,27 @@ function kmlData(
     return async () =>
         filterByDistance(
             rawToCoordinates(
-                await rawFromKml(kmlPath(kmlFileName), areaQualifier)
+                await rawFromKml(filePath(kmlFileName), areaQualifier)
             ),
             distanceThreshold
         ).map(project)
 }
 
-function kmlPath(kmlFileName: string): string {
+function gpxData(
+    gpxFileName: string,
+    distanceThreshold: number
+): () => Promise<Point[]> {
+    return async () =>
+        filterByDistance(
+            await coordinatesFromGpx(filePath(gpxFileName)),
+            distanceThreshold
+        ).map(project)
+}
+
+function filePath(kmlFileName: string): string {
     return resolve(process.cwd(), 'map', kmlFileName)
 }
 
-export async function writeData(filePath: string): Promise<void> {
-    writeFileSync(filePath, JSON.stringify(await data()))
+export async function writeData(dataFilePath: string): Promise<void> {
+    writeFileSync(dataFilePath, JSON.stringify(await data()))
 }

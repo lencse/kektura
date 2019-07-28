@@ -1,4 +1,4 @@
-import { rawFromKml } from '../src/map/kml'
+import { rawFromKml } from '../src/map/files'
 import { resolve } from 'path'
 import { rawToCoordinates, distanceInMeters, filterByDistance, project } from '../src/map/map'
 
