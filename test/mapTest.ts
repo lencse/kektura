@@ -6,7 +6,7 @@ describe('Extract Kml file', () => {
 
     it('Extract Hungary border', async () => {
         const raw = await rawFromKml(
-            resolve(process.cwd(), 'map/kml/gadm36_HUN_0.kml'),
+            resolve(process.cwd(), 'map/gadm36_HUN_0.kml'),
             'Hungary'
         )
         expect(raw).toMatch(/^(\d+\.\d+,\d+\.\d+ )+\d+\.\d+,\d+\.\d+$/)
@@ -14,7 +14,7 @@ describe('Extract Kml file', () => {
 
     it('Extract Budapest border', async () => {
         const raw = await rawFromKml(
-            resolve(process.cwd(), 'map/kml/gadm36_HUN_1.kml'),
+            resolve(process.cwd(), 'map/gadm36_HUN_1.kml'),
             'Hungary/Budapest'
         )
         expect(raw).toMatch(/^(\d+\.\d+,\d+\.\d+ )+\d+\.\d+,\d+\.\d+$/)

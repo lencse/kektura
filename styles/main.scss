@@ -14,6 +14,7 @@ body {
     svg {
         .hungary {
             stroke: $dark-base;
+            stroke-linejoin: bevel;
             stroke-width: 5px;
             fill: none;
         }

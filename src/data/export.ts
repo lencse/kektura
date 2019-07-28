@@ -30,7 +30,7 @@ function kmlData(
 }
 
 function kmlPath(kmlFileName: string): string {
-    return resolve(process.cwd(), 'map/kml', kmlFileName)
+    return resolve(process.cwd(), 'map', kmlFileName)
 }
 
 export async function writeData(filePath: string): Promise<void> {
