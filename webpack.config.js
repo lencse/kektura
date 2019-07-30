@@ -82,7 +82,8 @@ module.exports = webpackMerge(
                 chunkFilename: filenames.cssChunks
             }),
             new CopyPlugin([
-                { from: 'build/data', to: 'data' }
+                { from: 'build/data', to: 'data' },
+                { from: 'static', to: '' },
             ])
         ],
         module: {

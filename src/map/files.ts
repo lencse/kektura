@@ -45,3 +45,47 @@ export async function coordinatesFromGpx(gpxFilePath: string): Promise<Coordinat
             return { lat: Number(node.$.lat), lon: Number(node.$.lon) }
         })
 }
+
+export async function checkpointsFromGpx(gpxFilePath: string): Promise<Coordinate[]> {
+    const gpx = readFileSync(gpxFilePath).toString()
+    const data = await xml2json(gpx.toString())
+    const m = new Map<number, any[]>()
+    data.gpx
+        .wpt
+        .map((node) => {
+            return {
+                lat: node.$.lat,
+                lon: node.$.lon,
+                name: String(node.name[0])
+            }
+        })
+        .filter((unfilteredCheckpoint) => unfilteredCheckpoint.name.match(/OKTPH/))
+        .map((checkpoint) => {
+            return {
+                lat: checkpoint.lat,
+                lon: checkpoint.lon,
+                name: checkpoint.name.replace(/\s+OKTPH.*$/, ''),
+                checkpointIdx: Number(checkpoint.name.match(/OKTPH_(\d+)/)[1]),
+            }
+        })
+        .map((cp) => {
+            if (m.has(cp.checkpointIdx)) {
+                m.get(cp.checkpointIdx).push(cp)
+            } else {
+                m.set(cp.checkpointIdx, [cp])
+            }
+
+        })
+    // for (let i = 1; i <= 149; ++i) {
+    //     if (!m.has(i)) {
+    //         console.dir(i)
+    //     }
+    // }
+    const cps = []
+    m.forEach((p) => {
+        cps.push(p)
+    })
+    return []
+}
+
+// @TODO:  Missing: 141
