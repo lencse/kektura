@@ -83,7 +83,7 @@ module.exports = webpackMerge(
             }),
             new CopyPlugin([
                 { from: 'build/data', to: 'data' },
-                { from: 'static', to: '' },
+                { from: '.netlify', to: '' },
             ])
         ],
         module: {
