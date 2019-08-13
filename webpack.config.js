@@ -27,9 +27,6 @@ const extra = devMode ?
     {
         mode: 'development',
         devtool: 'inline-source-map',
-        plugins: [
-            // new LiveReloadPlugin()
-        ],
         devServer: {
             port: 6100,
             writeToDisk: true

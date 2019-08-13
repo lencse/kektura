@@ -46,46 +46,40 @@ export async function coordinatesFromGpx(gpxFilePath: string): Promise<Coordinat
         })
 }
 
-export async function checkpointsFromGpx(gpxFilePath: string): Promise<Coordinate[]> {
-    const gpx = readFileSync(gpxFilePath).toString()
-    const data = await xml2json(gpx.toString())
-    const m = new Map<number, any[]>()
-    data.gpx
-        .wpt
-        .map((node) => {
-            return {
-                lat: node.$.lat,
-                lon: node.$.lon,
-                name: String(node.name[0])
-            }
-        })
-        .filter((unfilteredCheckpoint) => unfilteredCheckpoint.name.match(/OKTPH/))
-        .map((checkpoint) => {
-            return {
-                lat: checkpoint.lat,
-                lon: checkpoint.lon,
-                name: checkpoint.name.replace(/\s+OKTPH.*$/, ''),
-                checkpointIdx: Number(checkpoint.name.match(/OKTPH_(\d+)/)[1]),
-            }
-        })
-        .map((cp) => {
-            if (m.has(cp.checkpointIdx)) {
-                m.get(cp.checkpointIdx).push(cp)
-            } else {
-                m.set(cp.checkpointIdx, [cp])
-            }
-
-        })
-    // for (let i = 1; i <= 149; ++i) {
-    //     if (!m.has(i)) {
-    //         console.dir(i)
-    //     }
-    // }
-    const cps = []
-    m.forEach((p) => {
-        cps.push(p)
-    })
-    return []
-}
+// export async function checkpointsFromGpx(gpxFilePath: string): Promise<Checkpoint[]> {
+//     const gpx = readFileSync(gpxFilePath).toString()
+//     const data = await xml2json(gpx.toString())
+//     return data.gpx
+//         .wpt
+//         .map((node) => {
+//             return {
+//                 coordinate: {
+//                     lat: Number(node.$.lat),
+//                     lon: Number(node.$.lon),
+//                 },
+//                 name: String(node.name[0])
+//             }
+//         })
+//         .filter((unfilteredCheckpoint) => unfilteredCheckpoint.name.match(/OKTPH/))
+//         .map((checkpoint) => {
+//             return {
+//                 coordinate: checkpoint.coordinate,
+//                 name: checkpoint.name.replace(/\s+OKTPH.*$/, ''),
+//                 checkpointIdx: Number(checkpoint.name.match(/OKTPH_(\d+)/)[1]),
+//             }
+//         })
+//         .reduce(
+//             (prev, curr, idx) => {
+//                 if (0 === idx) {
+//                     return [curr]
+//                 }
+//                 if (curr.checkpointIdx === prev[prev.length - 1].checkpointIdx) {
+//                     return prev
+//                 }
+//                 return prev.concat([curr])
+//             },
+//             []
+//         )
+// }
 
 // @TODO:  Missing: 141
