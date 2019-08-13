@@ -2,6 +2,8 @@ import Coordinate from './Coordinate'
 import { getDistance } from 'geolib'
 import Point from './Point'
 import * as proj4 from 'proj4'
+import CheckpointData from './CheckpointData'
+import Checkpoint from './Checkpoint'
 
 export function rawToCoordinates(rawData: string): Coordinate[] {
     return rawData.split(' ')
@@ -36,4 +38,33 @@ export function project(coordinate: Coordinate): Point {
         0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs`
     const proj = proj4(fromProjection, toProjection, [coordinate.lon, coordinate.lat])
     return { x: proj[0], y: proj[1] }
+}
+
+export function suitCheckpointsToHikingPath(
+    checkpointDatas: CheckpointData[],
+    path: Coordinate[]
+): Checkpoint[] {
+    return checkpointDatas.map((checkpointData, i) => {
+        if (0 === i) {
+            return {
+                pathIdx: 0,
+                name: checkpointData.name,
+                checkpointIdx: checkpointData.checkpointIdx
+            }
+        }
+        if (checkpointDatas.length - 1 === i) {
+            return {
+                pathIdx: path.length - 1,
+                name: checkpointData.name,
+                checkpointIdx: checkpointData.checkpointIdx
+            }
+        }
+        const distances = path.map((coord) => distanceInMeters(coord, checkpointData.coordinate))
+        const minDistance = Math.min(...distances)
+        return {
+            pathIdx: distances.indexOf(minDistance),
+            name: checkpointData.name,
+            checkpointIdx: checkpointData.checkpointIdx
+        }
+    })
 }

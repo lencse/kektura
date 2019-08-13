@@ -29,5 +29,12 @@ body {
             stroke-linecap: round;
             fill: none;
         }
+        .checkpoint {
+            stroke: red;
+            stroke-linejoin: bevel;
+            stroke-width: 1px;
+            stroke-linecap: round;
+            fill: none;
+        }
     }
 }

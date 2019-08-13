@@ -1,7 +1,5 @@
-import Coordinate from './Coordinate'
-
 export default interface Checkpoint {
-    coordinate: Coordinate,
+    pathIdx: number,
     name: string,
     checkpointIdx: number
 }
