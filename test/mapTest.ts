@@ -35,10 +35,10 @@ describe('Map', () => {
 
     it('Calculate distance', () => {
         const distance = distanceInMeters(
-            { lon: 16.45419312, lat: 47.1848259 },
-            { lon: 16.45189667, lat: 47.18889236 }
+            { lat: 47.5545366729707, lon: 18.9989208082849 },
+            { lat: 47.554755059, lon: 18.532692449 }
         )
-        expect(distance).toEqual(547)
+        expect(distance).toEqual(35027)
     })
 
     it('Transform to Pseudo-Mercator', () => {
@@ -64,9 +64,11 @@ describe('Map', () => {
             { lon: 20.47172356, lat: 46.15082932 },
             { lon: 20.47033882, lat: 46.14984894 },
             { lon: 20.46892357, lat: 46.14889145 },
+            { lon: 20.46755791, lat: 46.14794159 },
             { lon: 20.46618271, lat: 46.14697647 },
+            { lon: 20.46491814, lat: 46.14609528 },
             { lon: 20.46363449, lat: 46.14518738 }
-        ])
+          ])
     })
 
 })

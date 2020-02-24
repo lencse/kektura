@@ -32,10 +32,12 @@ fetch('/data/data.json').then((resp) => resp.json().then((data: Data) => {
         .attr({ opacity: 0 })
         .animate(1000)
         .attr({ opacity: 1 })
-    // const k = transform(data.kektura)
     const cp = transform(data.checkpoints.map((checkpoint) => data.kektura[checkpoint.pathIdx]))
-    cp.map((p) => {
-        draw.circle(5).move(p.x - 2.5, p.y - 2.5).addClass('checkpoint')
+    const names = data.checkpoints.map((checkpoint) => checkpoint.name)
+    cp.map((p, idx) => {
+        draw.circle(3).move(p.x - 2.5, p.y - 2.5)
+            .addClass('checkpoint')
+            .data('checkpoint-name', names[idx])
             .attr({ opacity: 0 })
             .animate(1000)
             .attr({ opacity: 1 })
