@@ -34,8 +34,8 @@ export function filterByDistance(coordinates: Coordinate[], thresholdMeters: num
 
 export function project(coordinate: Coordinate): Point {
     const fromProjection = `WGS84`
-    const toProjection = `+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y
-        0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs`
+    const toProjection = `+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0
+        +x_0=0.0 +y 0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs`
     const proj = proj4(fromProjection, toProjection, [coordinate.lon, coordinate.lat])
     return { x: proj[0], y: proj[1] }
 }
@@ -60,9 +60,8 @@ export function suitCheckpointsToHikingPath(
             }
         }
         const distances = path.map((coord) => distanceInMeters(coord, checkpointData.coordinate))
-        const minDistance = Math.min(...distances)
         return {
-            pathIdx: distances.indexOf(minDistance),
+            pathIdx: distances.indexOf(Math.min(...distances)),
             name: checkpointData.name,
             checkpointIdx: checkpointData.checkpointIdx
         }
