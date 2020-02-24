@@ -4,7 +4,7 @@ body {
     background: $light-base;
 }
 
-#map {
+#map, #react-root {
     position: absolute;
     top: 0;
     bottom: 0;
