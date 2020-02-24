@@ -2886,9 +2886,9 @@ gaze@^1.0.0:
     globule "^1.0.0"
 
 geolib@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/geolib/-/geolib-3.0.4.tgz#63fd82cf4311f08cadc142aaa73a0941844266d1"
-  integrity sha512-IpbpPdfuVdjj2T909H0Kj0Crp0he+xfFYX6e1Wlvo5L2OVkfnfvpTLp9k0VYuu5ObbWhQ/TI2VKNsrAokss5vA==
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/geolib/-/geolib-3.2.1.tgz#1d7c6e7106eddc10445ba2038550aab63d6e4fa4"
+  integrity sha512-O9nD8iSD4VimupKak8bKySLkkWI5VWetxIXsU7jmJRXxBFRR9LxSXGfTomtcHJLSRiznx+YHXHTOIVq4qgQmPw==
 
 get-caller-file@^1.0.1:
   version "1.0.3"
