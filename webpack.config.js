@@ -52,9 +52,9 @@ const extra = devMode ?
     }
 
 const filenames = {
-    js: devMode ? '[name].js' : '[name].[hash].js',
-    css: devMode ? '[name].css' : '[name].[hash].css',
-    cssChunks: devMode ? '[id].css' : '[id].[hash].css'
+    js: '[name].js',
+    css: '[name].css',
+    cssChunks: '[id].css'
 }
 
 module.exports = webpackMerge(
