@@ -82,5 +82,3 @@ export async function checkpointsFromGpx(gpxFilePath: string): Promise<Checkpoin
             []
         )
 }
-
-// @TODO:  Missing: 141

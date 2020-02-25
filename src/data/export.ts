@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs'
+import { writeFileSync, readdirSync, readFileSync } from 'fs'
 import { resolve } from 'path'
 import { rawFromKml, coordinatesFromGpx, checkpointsFromGpx } from '../map/files'
 import { rawToCoordinates, filterByDistance, project, suitCheckpointsToHikingPath } from '../map/map'
@@ -6,6 +6,7 @@ import Data from './Data'
 import config from '../../config/config'
 import CheckpointData from '../map/CheckpointData'
 import Coordinate from '../map/Coordinate'
+import Hike from '../map/Hike'
 
 async function data(): Promise<Data> {
     const kekturaData = await kektura()
@@ -13,7 +14,8 @@ async function data(): Promise<Data> {
         hungary: (await hungary()).map(project),
         budapest: (await budapest()).map(project),
         kektura: kekturaData.map(project),
-        checkpoints: suitCheckpointsToHikingPath(await checkpoints(), kekturaData)
+        checkpoints: suitCheckpointsToHikingPath(await checkpoints(), kekturaData),
+        hikes: await hikes()
     }
 }
 
@@ -23,6 +25,7 @@ const hungary = kmlData('gadm36_HUN_0.kml', 'Hungary', thresholds.hungary)
 const budapest = kmlData('gadm36_HUN_1.kml', 'Hungary/Budapest', thresholds.budapest)
 const kektura = gpxData('okt_teljes_gpx_2019-06-28.gpx', thresholds.kektura)
 const checkpoints = checkpointData('Orszagos_Kektura-pecsetek.gpx')
+const hikes = hikeData()
 
 function kmlData(
     kmlFileName: string,
@@ -32,7 +35,7 @@ function kmlData(
     return async () =>
         filterByDistance(
             rawToCoordinates(
-                await rawFromKml(filePath(kmlFileName), areaQualifier)
+                await rawFromKml(mapFilePath(kmlFileName), areaQualifier)
             ),
             distanceThreshold
         )
@@ -44,13 +47,17 @@ function gpxData(
 ): () => Promise<Coordinate[]> {
     return async () =>
         filterByDistance(
-            await coordinatesFromGpx(filePath(gpxFileName)),
+            await coordinatesFromGpx(mapFilePath(gpxFileName)),
             distanceThreshold
         )
 }
 
-function filePath(fileName: string): string {
+function mapFilePath(fileName: string): string {
     return resolve(process.cwd(), 'map', fileName)
+}
+
+function contentDir(): string {
+    return resolve(process.cwd(), 'content')
 }
 
 export async function writeData(dataFilePath: string): Promise<void> {
@@ -59,5 +66,20 @@ export async function writeData(dataFilePath: string): Promise<void> {
 
 function checkpointData(gpxFileName: string): () => Promise<CheckpointData[]> {
     return async () =>
-        (await checkpointsFromGpx(filePath(gpxFileName)))
+        (await checkpointsFromGpx(mapFilePath(gpxFileName)))
+}
+
+function hikeData(): () => Promise<Hike[]> {
+    return async () => readdirSync(contentDir()).filter((filename) => filename.match(/\.mdx$/))
+    .map((fileName) => {
+        const fileContent = readFileSync(resolve(contentDir(), fileName))
+        return {
+            start: null,
+            end: null,
+            name: '',
+            startPointIdx: 0,
+            endPointIdx: 0,
+            text: fileContent.toString()
+        }
+    })
 }
