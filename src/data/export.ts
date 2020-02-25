@@ -71,15 +71,15 @@ function checkpointData(gpxFileName: string): () => Promise<CheckpointData[]> {
 
 function hikeData(): () => Promise<Hike[]> {
     return async () => readdirSync(contentDir()).filter((filename) => filename.match(/\.mdx$/))
-    .map((fileName) => {
-        const fileContent = readFileSync(resolve(contentDir(), fileName))
-        return {
-            start: null,
-            end: null,
-            name: '',
-            startPointIdx: 0,
-            endPointIdx: 0,
-            text: fileContent.toString()
-        }
-    })
+        .map((fileName) => {
+            const fileContent = readFileSync(resolve(contentDir(), fileName)).toString()
+            return {
+                start: null,
+                end: null,
+                name: '',
+                startPointIdx: 0,
+                endPointIdx: 0,
+                text: fileContent
+            }
+        })
 }
