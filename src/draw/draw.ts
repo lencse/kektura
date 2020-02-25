@@ -7,7 +7,7 @@ export const dimensions = {
     height: 600
 }
 
-function transformer(
+export function transformer(
     width: number,
     height: number,
     data: Data
