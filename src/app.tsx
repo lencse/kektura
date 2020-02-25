@@ -1,6 +1,6 @@
 import { drawMap, transformer, dimensions } from './draw/draw'
 import * as ReactDom from 'react-dom'
-import Main from './app/MainTMP'
+import Main from './app/Main'
 import * as React from 'react'
 
 fetch('/data/data.json').then((resp) => resp.json().then((data) => {
