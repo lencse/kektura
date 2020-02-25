@@ -7,6 +7,7 @@ import config from '../../config/config'
 import CheckpointData from '../map/CheckpointData'
 import Coordinate from '../map/Coordinate'
 import Hike from '../map/Hike'
+import * as Md from 'markdown-it'
 
 async function data(): Promise<Data> {
     const kekturaData = await kektura()
@@ -69,17 +70,21 @@ function checkpointData(gpxFileName: string): () => Promise<CheckpointData[]> {
         (await checkpointsFromGpx(mapFilePath(gpxFileName)))
 }
 
+const md = new Md()
+
 function hikeData(): () => Promise<Hike[]> {
     return async () => readdirSync(contentDir()).filter((filename) => filename.match(/\.mdx$/))
         .map((fileName) => {
             const fileContent = readFileSync(resolve(contentDir(), fileName)).toString()
+            const parts = /^---(.*)---(.*)$/sim.exec(fileContent)
+            const metaData = JSON.parse(parts[1])
             return {
-                start: null,
-                end: null,
-                name: '',
-                startPointIdx: 0,
-                endPointIdx: 0,
-                text: fileContent
+                start: new Date(metaData.start),
+                end: new Date(metaData.end),
+                name: metaData.name,
+                startPointIdx: metaData.startPoint,
+                endPointIdx: metaData.endPoint,
+                text: md.render(parts[2])
             }
         })
 }
