@@ -7,7 +7,7 @@ import HikePath from './HikePath'
 export default class Main extends React.Component<{
     width: number
     height: number
-    transform: (points: Point[]) => Point[]
+    section: (startIdx: number, endIdx: number) => Point[]
     hikes: Hike[]
 }, {}> {
 
@@ -20,7 +20,7 @@ export default class Main extends React.Component<{
             >{
                 this.props.hikes.map((hike, key) => (
                     <HikePath
-                        transform={ this.props.transform }
+                        section={ this.props.section }
                         hike={ hike }
                         key={ key }
                     />

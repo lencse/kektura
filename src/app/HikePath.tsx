@@ -3,16 +3,20 @@ import Point from '../map/Point'
 import Hike from '../map/Hike'
 
 export default class HikePath extends React.Component<{
-    transform: (points: Point[]) => Point[]
+    section: (startIdx: number, endIdx: number) => Point[]
     hike: Hike
 }, {}> {
 
     public render(): React.ReactNode {
+        const str = this.props.section(this.props.hike.startPointIdx, this.props.hike.endPointIdx)
+            .map((p) => [p.x, p.y])
+            .map((coo) => coo.join(',')).join(' ')
         return (
             <polyline
-                points='83.47431758880299,270.70383739020616 83.80645515311949,270.38489778533005'
+                points={ str }
                 className='hike-path'
-                opacity='1'>
+                opacity='1'
+                >
             </polyline>
         )
     }

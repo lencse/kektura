@@ -33,5 +33,17 @@ body {
             stroke: none;
             fill: $alt;
         }
+        .hike-path {
+            stroke: $light-alt;
+            stroke-linejoin: bevel;
+            stroke-width: 2px;
+            stroke-linecap: butt;
+            fill: none;
+        }
+        .hike-path:hover {
+            stroke: $dark-alt;
+            // stroke-width: 4px;
+            cursor: pointer;
+        }
     }
 }
